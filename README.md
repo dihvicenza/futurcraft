@@ -4,7 +4,7 @@ Questo repo privato contiene i risultati di sperimenti con il database a grafo e
 
 ## Back end
 
-Neo4j - uno dei tipi meno conosciuti di database è il database a grafo.
+Neo4j - il database a grafo più conosciuto.
 
 ## Front end
 

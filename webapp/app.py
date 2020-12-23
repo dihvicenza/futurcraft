@@ -4,16 +4,16 @@ from os.path import expanduser
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import pandas as pd
 import plotly.express as px
 from sqlalchemy import create_engine
-import pandas as pd
 
 
 # DATA
 # Get connection parameters
 with open(expanduser('~/.pgpass'), 'r') as f:
     for i, line in enumerate(f):
-        if i == 3:
+        if i == 0:  #  number of the line with DB credentials
             host, port, db, user, password = line.split(':')
 
 # SQLAlchemy connectable
@@ -22,14 +22,14 @@ db_uri = f'postgresql+psycopg2://{user}:{password}@{host}:{port}/{db}'
 con = create_engine(db_uri).connect()
 
 # Table named 'selfi4' will be returned as a dataframe.
-df = pd.read_sql_table('selfi4_group', con, schema='futurecraft')
+df = pd.read_sql_table('selfi4_group', con, schema='futurcraft')
 
 tech_top5 = ["Sistema gestionale", "Cloud", "Cybersicurezza e business continuity",
              "Sistemi di pagamento mobile e/o via Internet", "Sistemi di e-commerce e/o e-trade"]
 
 # WEB APP
 
-app = dash.Dash(title='FutureCRAFT WP4')
+app = dash.Dash(title='FuturCRAFT WP4')
 
 colors = {
     'background': '#31302f',
@@ -38,9 +38,9 @@ colors = {
 }
 
 fig = px.density_heatmap(df,
-                         labels={"tecnologia": "Tecnologia", "provincia": "Provincia", "count": "Risposte"},
+                         labels={"tecnologia_fcraft": "Tecnologia", "provincia": "Provincia", "count": "Risposte"},
                          x=df['provincia'],
-                         y=df['tecnologia'],
+                         y=df['tecnologia_fcraft'],
                          z=df['count'])
 
 fig.update_layout(

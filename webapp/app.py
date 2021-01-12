@@ -13,12 +13,13 @@ from sqlalchemy import create_engine
 # Get connection parameters
 with open(expanduser('~/.pgpass'), 'r') as f:
     for i, line in enumerate(f):
+        line = line[:-1]
         if i == 0:  #  number of the line with DB credentials
             host, port, db, user, password = line.split(':')
 
 # SQLAlchemy connectable
 # Scheme: "postgresql://<USERNAME>:<PASSWORD>@<IP_ADDRESS>:<PORT>/<DATABASE_NAME>"
-db_uri = f'postgresql+psycopg2://{user}:{password}@{host}:{port}/{db}'
+db_uri = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{db}"
 con = create_engine(db_uri).connect()
 
 # Table named 'selfi4' will be returned as a dataframe.

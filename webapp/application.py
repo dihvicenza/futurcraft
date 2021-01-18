@@ -4,8 +4,10 @@ from os.path import expanduser
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import numpy as np
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 from sqlalchemy import create_engine
 
 
@@ -39,13 +41,23 @@ colors = {
 }
 
 fig = px.density_heatmap(df,
-                         labels={"tecnologia_fcraft": "Tecnologia", "provincia": "Provincia", "count": "Risposte"},
+                         labels={'tecnologia_fcraft': 'Competenza', 'provincia': 'Provincia', 'percento': 'Percentuale'},
                          x=df['provincia'],
                          y=df['tecnologia_fcraft'],
-                         z=df['count'])
+                         z=df['percento'],
+                         color_continuous_scale=['#EEFFCC', '#01d000'])
+
+fig.add_trace(go.Scatter(x=df['provincia'],
+                         y=df['tecnologia_fcraft'],
+                         mode='markers',
+                         marker=dict(size=np.where(df['formazione'], 10, 0),
+                                     color="black",
+                                     line=dict(width=2, color="black"),
+                                     symbol='x-thin'),
+                                     hoverinfo='skip'))
 
 fig.update_layout(
-    legend_title="Risposte SELFI4.0",
+    legend_title_text='Risposte SELFI4.0',
     plot_bgcolor=colors['background'],
     paper_bgcolor=colors['background'],
     font_color=colors['text']
@@ -82,7 +94,7 @@ app.layout = html.Div(children=[
                              target="_blank")], style={"margin-top": "15px"})
         ]),
         html.Div(className='eight columns div-for-charts bg-grey', children=[
-            html.H2("Domanda di competenze da parte delle imprese", style={"text-align": "center"}),
+            html.H2("Presenza di competenze nelle imprese", style={"text-align": "center"}),
             dcc.Graph(
                 id='fcraft-wp4',
                 figure=fig,

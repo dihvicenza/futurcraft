@@ -32,7 +32,7 @@ db_uri = f"postgresql+psycopg2://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}"
 con = create_engine(db_uri).connect()
 
 # Table named 'selfi4' will be returned as a dataframe.
-df = pd.read_sql_table('selfi4_group', con, schema='futurcraft')
+df = pd.read_sql_table('selfi4_group', con, schema='data')
 
 tech_top5 = ["Sistema gestionale", "Cloud", "Cybersicurezza e business continuity",
              "Sistemi di pagamento mobile e/o via Internet", "Sistemi di e-commerce e/o e-trade"]

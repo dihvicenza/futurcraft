@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from os.path import expanduser
+
+import os
 
 import dash
 import dash_core_components as dcc
@@ -13,15 +14,21 @@ from sqlalchemy import create_engine
 
 # DATA
 # Get connection parameters
-with open(expanduser('~/.pgpass'), 'r') as f:
-    for i, line in enumerate(f):
-        line = line[:-1]
-        if i == 0:  #  number of the line with DB credentials
-            host, port, db, user, password = line.split(':')
+if 'RDS_HOSTNAME' in os.environ:
+    DB = os.environ['RDS_DB_NAME']
+    USER = os.environ['RDS_USERNAME']
+    PASSWORD = os.environ['RDS_PASSWORD']
+    HOST = os.environ['RDS_HOSTNAME'],
+    PORT = os.environ['RDS_PORT']
+else:
+    with open(os.path.expanduser('~/.pgpass'), 'r') as f:
+        for i, line in enumerate(f):
+            line = line[:-1]
+            if i == 0:  # number of the line with DB credentials
+                HOST, PORT, DB, USER, PASSWORD = line.split(':')
 
-# SQLAlchemy connectable
-# Scheme: "postgresql://<USERNAME>:<PASSWORD>@<IP_ADDRESS>:<PORT>/<DATABASE_NAME>"
-db_uri = f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{db}"
+# SQLAlchemy connectable Scheme:
+db_uri = f"postgresql+psycopg2://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}"
 con = create_engine(db_uri).connect()
 
 # Table named 'selfi4' will be returned as a dataframe.
@@ -66,7 +73,7 @@ fig.update_layout(
 app.layout = html.Div(children=[
     html.Div(className='row', children=[
         html.Div(className='four columns div-user-controls', children=[
-            html.Img(src=app.get_asset_url('interreg-bianco.png'),
+            html.Img(src=app.get_asset_url('interreg.png'),
                      alt="INTERREG. L'iniziativa FuturCRAFT - \
                      Rafforzamento della ricerca, dello sviluppo tecnologico e dell'innovazione",
                      style={"display": "block",
@@ -75,7 +82,7 @@ app.layout = html.Div(children=[
                             "width": "80%",
                             "max-width": "300px",
                             "margin-bottom": "20px"}),
-            html.H1('FutureCRAFT WP4', style={"font-size": "250%", "color": colors['title']}),
+            html.H1('FutureCRAFT WP4 (THIS IS DEMO!)', style={"font-size": "250%", "color": colors['title']}),
             html.P("""
                 L’iniziativa FuturCRAFT avrà il compito di definire i possibili scenari futuri per i profili \
                 di competenza digitale nell’artigianato e di illustrare le opportunità di digitalizzazione \

@@ -11,7 +11,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from sqlalchemy import create_engine
 
-
 # DATA
 # Get connection parameters
 if 'RDS_HOSTNAME' in os.environ:
@@ -28,8 +27,8 @@ else:
                 HOST, PORT, DB, USER, PASSWORD = line.split(':')
 
 # SQLAlchemy connectable Scheme:
-db_uri = f"postgresql+psycopg2://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}"
-con = create_engine(db_uri).connect()
+db_uri = f"postgresql+pg8000://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}"
+con = create_engine(db_uri, pool_pre_ping=True, pool_recycle=3600).connect()
 
 # Table named 'selfi4' will be returned as a dataframe.
 df = pd.read_sql_table('selfi4_group', con, schema='data')
@@ -40,6 +39,7 @@ tech_top5 = ["Sistema gestionale", "Cloud", "Cybersicurezza e business continuit
 # WEB APP
 
 app = dash.Dash(title='FuturCRAFT WP4')
+application = app.server
 
 colors = {
     'background': '#31302f',
@@ -48,7 +48,8 @@ colors = {
 }
 
 fig = px.density_heatmap(df,
-                         labels={'tecnologia_fcraft': 'Competenza', 'provincia': 'Provincia', 'percento': 'Percentuale'},
+                         labels={'tecnologia_fcraft': 'Competenza', 'provincia': 'Provincia',
+                                 'percento': 'Percentuale'},
                          x=df['provincia'],
                          y=df['tecnologia_fcraft'],
                          z=df['percento'],
@@ -61,14 +62,12 @@ fig.add_trace(go.Scatter(x=df['provincia'],
                                      color="black",
                                      line=dict(width=2, color="black"),
                                      symbol='x-thin'),
-                                     hoverinfo='skip'))
+                         hoverinfo='skip'))
 
-fig.update_layout(
-    legend_title_text='Risposte SELFI4.0',
-    plot_bgcolor=colors['background'],
-    paper_bgcolor=colors['background'],
-    font_color=colors['text']
-)
+fig.update_layout(legend_title_text='Risposte SELFI4.0',
+                  plot_bgcolor=colors['background'],
+                  paper_bgcolor=colors['background'],
+                  font_color=colors['text'])
 
 app.layout = html.Div(children=[
     html.Div(className='row', children=[
@@ -96,9 +95,9 @@ app.layout = html.Div(children=[
                 Sulla base dei risultati si cercherà di sviluppare delle strategie di digitalizzazione utili per \
                 sostenere le aziende nella propria attività di innovazione."""),
             html.P(['Developed by: ',
-                      html.A('Digital Innovation Hub Vicenza',
-                             href='https://digitalinnovationhubvicenza.it/',
-                             target="_blank")], style={"margin-top": "15px"})
+                    html.A('Digital Innovation Hub Vicenza',
+                           href='https://digitalinnovationhubvicenza.it/',
+                           target="_blank")], style={"margin-top": "15px"})
         ]),
         html.Div(className='eight columns div-for-charts bg-grey', children=[
             html.H2("Presenza di competenze nelle imprese", style={"text-align": "center"}),
@@ -114,4 +113,4 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    application.run(debug=False, port=80)

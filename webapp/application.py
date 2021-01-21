@@ -27,7 +27,7 @@ else:
                 HOST, PORT, DB, USER, PASSWORD = line.split(':')
 
 # SQLAlchemy connectable Scheme:
-db_uri = f"postgresql+pg8000://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}"
+db_uri = f'postgresql+pg8000://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB}'  # pg8000==1.16.5 is important
 con = create_engine(db_uri, pool_pre_ping=True, pool_recycle=3600).connect()
 
 # Table named 'selfi4' will be returned as a dataframe.

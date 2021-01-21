@@ -8,4 +8,4 @@ Questo repo privato contiene una web app, sviluppata su database PostgreSQL e Py
 
 ## Front end
 
-- Un dashboard a base di Dash, la libreria Python.
+- Un dashboard a base di **Dash**, la libreria Python.

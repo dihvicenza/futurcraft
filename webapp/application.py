@@ -17,7 +17,7 @@ if 'RDS_HOSTNAME' in os.environ:
     DB = os.environ['RDS_DB_NAME']
     USER = os.environ['RDS_USERNAME']
     PASSWORD = os.environ['RDS_PASSWORD']
-    HOST = os.environ['RDS_HOSTNAME'],
+    HOST = os.environ['RDS_HOSTNAME']
     PORT = os.environ['RDS_PORT']
 else:
     with open(os.path.expanduser('~/.pgpass'), 'r') as f:
@@ -38,7 +38,7 @@ tech_top5 = ["Sistema gestionale", "Cloud", "Cybersicurezza e business continuit
 
 # WEB APP
 
-app = dash.Dash(title='FuturCRAFT WP4')
+app = dash.Dash(name=__name__, title="FuturCRAFT WP4", assets_folder ="static", assets_url_path="static")
 application = app.server
 
 colors = {

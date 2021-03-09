@@ -3,9 +3,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import numpy as np
 import pandas as pd
-import plotly.express as px
 import plotly.graph_objects as go
 from sqlalchemy import create_engine
 
@@ -20,9 +18,6 @@ con = create_engine(db_uri, pool_pre_ping=True, pool_recycle=3600).connect()
 # Table named 'selfi4' will be returned as a dataframe.
 df = pd.read_sql_table("selfi4_group", con, schema="data")
 
-tech_top5 = ["Sistema gestionale", "Cloud", "Cybersicurezza e business continuity",
-             "Sistemi di pagamento mobile e/o via Internet", "Sistemi di e-commerce e/o e-trade"]
-
 # WEB APP
 lng = "it"
 app = dash.Dash(name=__name__,
@@ -31,23 +26,38 @@ app = dash.Dash(name=__name__,
                 assets_url_path="static")
 application = app.server
 
-fig = px.density_heatmap(df,
-                         labels={"tecnologia_fcraft": "Competenza",
-                                 "provincia": "Provincia",
-                                 "percento": "Percentuale"},
-                         x=df["provincia"],
-                         y=df["tecnologia_fcraft"],
-                         z=df["percento"],
-                         color_continuous_scale=["#fff", "#fdcc0d"])
+# https://plotly.github.io/plotly.py-docs/generated/plotly.graph_objects.Heatmap.html
+fig = go.Figure(data=go.Heatmap(
+    name="Enterprises",
+    showlegend=True,
+    x=df["provincia"],
+    y=df["tecnologia_fcraft"],
+    z=df["percento"],
+    xgap=0.5,
+    ygap=0.5,
+    colorscale=["#fff", "#fdcc0d"],
+    colorbar=dict(
+        title="Prevalence",
+        titleside="top",
+        tickmode="array",
+        tickvals=[1, 8, 15],
+        ticktext=["Low", "Average", "High"],
+        ticks="outside"
+    )),
+    layout=go.Layout(legend=dict(orientation="h")))
 
-fig.add_trace(go.Scatter(x=df["provincia"],
-                         y=df["tecnologia_fcraft"],
-                         mode="markers",
-                         marker=dict(size=df["formazione"]**2/10,  # size=np.where(df['formazione'], 10, 0
-                                     color="blue",
-                                     line=dict(width=2, color="blue"),
-                                     symbol="circle"),
-                         hoverinfo='skip'))
+fig.add_trace(go.Scatter(
+    name="Schools",
+    showlegend=True,
+    x=df["provincia"],
+    y=df["tecnologia_fcraft"],
+    mode="markers",
+    marker=dict(size=df["formazione"] ** 2 / 10,  # size=np.where(df['formazione'], 10, 0
+                color="#164193",
+                line=dict(width=2, color="#164193"),
+                symbol="square"),
+    hoverinfo="skip"))
+fig.update_layout(dragmode=False, separators=",")
 
 app.layout = html.Div([
     html.H1(id="h1"),
@@ -77,22 +87,15 @@ app.layout = html.Div([
 
         html.Div(className="eight columns div-for-charts",
                  children=[dcc.Tabs([
-                     dcc.Tab(label="BZ, TV, VI", children=[
+                     dcc.Tab(label="BZ, VI, TV & BL", children=[
                          dcc.Graph(id="fcraft-wp4-ita",
                                    figure=fig,
                                    style={"margin-left": "50px"},
                                    config={"displayModeBar": False, "scrollZoom": False})
                      ]),
-                     dcc.Tab(label="SZG", children=[
-                         dcc.Graph(id="fcraft-wp4-aut",
-                                   figure=fig,
-                                   style={"margin-left": "50px"},
-                                   config={"displayModeBar": False, "scrollZoom": False})
-                     ])
+                     dcc.Tab(label="SZG", children=[dcc.Markdown(id="szg")])
                  ]),
-                     html.P("Top 5 delle tecnologie richieste:", style={"font-size": "120%", "margin-left": "50px"}),
-                     html.Ol(id='tech-top5', children=[html.Li(tech) for tech in tech_top5],
-                             style={"margin-left": "50px"})
+                     dcc.Markdown(id="interpr")
                  ])
     ])
 ])
@@ -104,13 +107,17 @@ app.layout = html.Div([
      Output("h2_ref", "children")],
     Output("p_read_more", "children"),
     Output("p_dev_by", "children"),
+    Output("szg", "children"),
+    Output("interpr", "children"),
     [Input("lang-selector", "value")])
 def multi_output(value):
     return ml.h1[value], \
            ml.p_desc[value], \
            ml.h2_ref[value], \
            ml.p_read_more[value], \
-           ml.p_dev_by[value]
+           ml.p_dev_by[value], \
+           ml.szg[value], \
+           ml.interpr[value],
 
 
 if __name__ == '__main__':

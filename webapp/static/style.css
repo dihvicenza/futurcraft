@@ -1,3 +1,7 @@
+:root {
+  --fc-blue: #003399;
+  --fc-yellow: #fdcc0d;
+}
 /* Table of contents. Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
 - GRID
 - BASE STYLES
@@ -196,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 2.1px;
     font-size: 21px;
     padding-left: 12px;
-    color: #164193; /* FuturCRAFT logo color #fdcc0d and #003399 */
+    color: var(--fc-blue);
 }
 
 h1 {

@@ -33,6 +33,11 @@ fig = go.Figure(data=go.Heatmap(
     x=df["provincia"],
     y=df["tecnologia_fcraft"],
     z=df["percento"],
+    text=df['formazione'],
+    hovertemplate="<i>Province</i>: <b>%{x}</b><br>" +
+                  "<i>Competence</i>: <b>%{y}</b><br>" +
+                  "<i>Pct. of companies</i>: <b>%{z}%</b><br>" +
+                  "<i>Number of schools</i>: <b>%{text}</b>",
     xgap=0.5,
     ygap=0.5,
     colorscale=["#fff", "#fdcc0d"],
@@ -56,8 +61,14 @@ fig.add_trace(go.Scatter(
                 color="#164193",
                 line=dict(width=2, color="#164193"),
                 symbol="square"),
-    hoverinfo="skip"))
-fig.update_layout(dragmode=False, separators=",")
+    hoverinfo="skip"
+))
+
+fig.update_layout(dragmode=False,
+                  separators=",",
+                  hoverlabel=dict(
+                      bgcolor="white")
+                  )
 
 app.layout = html.Div([
     html.H1(id="h1"),
@@ -87,7 +98,7 @@ app.layout = html.Div([
 
         html.Div(className="eight columns div-for-charts",
                  children=[dcc.Tabs([
-                     dcc.Tab(label="BZ, VI, TV & BL", children=[
+                     dcc.Tab(label="TV+BL, BZ, VI", children=[
                          dcc.Graph(id="fcraft-wp4-ita",
                                    figure=fig,
                                    style={"margin-left": "50px"},

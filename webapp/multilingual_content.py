@@ -114,7 +114,7 @@ According to Statistics Austria, 38% of Austrian companies use cloud services. T
 
 interpr = dict(
 en="""
-How to interpret this graph?
+**How to interpret this graph?** The intensity of the *yellow color* illustrates how widespread are different competencies (vertical axis) in the enterprise world of specific provinces (horizontal axis). A *blue square* inside each cell represents the educational offer in the particular intersection of competence with a province: the bigger the square is, the more schools teach that technology. You can hover a mouse cursor over a cell to learn precise values: *Pct. of companies (%)* is a portion of businesses that uses a particular technology {data source 1}; *Number of schools* is how many schools offer a specific competence {data source 2}.
 """,
 it="""
 Come interpretare questo grafico?

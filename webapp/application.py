@@ -73,9 +73,9 @@ fig.update_layout(dragmode=False,
 app.layout = html.Div([
     html.H1(id="h1"),
 
-    html.Div(className='row', children=[
+    html.Div(className="row", children=[
 
-        html.Div(className='four columns div-user-controls', children=[
+        html.Div(className="four columns div-user-controls", children=[
 
             html.Img(className="logo", src=app.get_asset_url("interreg.png"), alt="Logo: INTERREG FuturCRAFT"),
 
@@ -85,50 +85,47 @@ app.layout = html.Div([
                                             clearable=False,
                                             options=[{"label": "English", "value": "en"},
                                                      {"label": "italiano", "value": "it"},
-                                                     {"label": "Deutsch", "value": "de"}
-                                                     ]
+                                                     {"label": "Deutsch", "value": "de"}]
                                             )
                                ],
                      ),
-            html.Div(id="p_desc"),
-            dcc.Markdown(id="p_read_more"),
-            dcc.Markdown(id="p_dev_by"),
-            dcc.Markdown(id="h2_ref")
+            dcc.Markdown(id="p_desc")
         ]),
 
         html.Div(className="eight columns div-for-charts",
-                 children=[dcc.Tabs([
-                     dcc.Tab(label="TV+BL, BZ, VI", children=[
-                         dcc.Graph(id="fcraft-wp4-ita",
-                                   figure=fig,
-                                   style={"margin-left": "50px"},
-                                   config={"displayModeBar": False, "scrollZoom": False})
+                 children=[
+                     dcc.Tabs([
+                                dcc.Tab(label="TV+BL, BZ, VI", children=[
+                                dcc.Graph(id="fcraft-wp4-ita",
+                                          figure=fig,
+                                          style={"margin-left": "50px"},
+                                          config={"displayModeBar": False, "scrollZoom": False})]),
+                                dcc.Tab(label="SZG", children=[dcc.Markdown(id="szg")])
                      ]),
-                     dcc.Tab(label="SZG", children=[dcc.Markdown(id="szg")])
-                 ]),
-                     dcc.Markdown(id="interpr")
-                 ])
-    ])
+                     dcc.Markdown(id="interpr"),
+                     html.H2(id="best_prh"),
+                     dcc.Markdown(id="best_pr")]
+                 )
+        ])
 ])
 
-
-@app.callback(
+@ app.callback(
     [Output("h1", "children"),
      Output("p_desc", "children"),
-     Output("h2_ref", "children")],
-    Output("p_read_more", "children"),
-    Output("p_dev_by", "children"),
-    Output("szg", "children"),
-    Output("interpr", "children"),
+     Output("szg", "children"),
+     Output("interpr", "children"),
+     Output("best_prh", "children"),
+     Output("best_pr", "children")],
     [Input("lang-selector", "value")])
+
+
 def multi_output(value):
     return ml.h1[value], \
            ml.p_desc[value], \
-           ml.h2_ref[value], \
-           ml.p_read_more[value], \
-           ml.p_dev_by[value], \
            ml.szg[value], \
-           ml.interpr[value],
+           ml.interpr[value], \
+           ml.best_prh[value], \
+           ml.best_pr[value]
 
 
 if __name__ == '__main__':

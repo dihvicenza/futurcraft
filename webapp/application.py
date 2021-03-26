@@ -99,10 +99,11 @@ app.layout = html.Div([
                                 dcc.Graph(id="fcraft-wp4-ita",
                                           figure=fig,
                                           style={"margin-left": "50px"},
-                                          config={"displayModeBar": False, "scrollZoom": False})]),
+                                          config={"displayModeBar": False, "scrollZoom": False}),
+                                dcc.Markdown(id="interpr")
+                                ]),
                                 dcc.Tab(label="SZG", children=[dcc.Markdown(id="szg")])
                      ]),
-                     dcc.Markdown(id="interpr"),
                      html.H2(id="best_prh"),
                      dcc.Markdown(id="best_pr")]
                  )

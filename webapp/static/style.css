@@ -161,7 +161,7 @@ html {
 }
 
 body {
-    font-family: "Open Sans Regular";
+    font-family: "Roboto Regular";
     height: 100%;
     font-size: 1.5em;
     margin: 0;
@@ -174,32 +174,34 @@ body {
 
 /* Typography */
 @font-face {
-    font-family: "Open Sans Bold";
-    src: url("font/OpenSans-Bold.ttf");
+    font-family: "Roboto Bold";
+    src: url("font/Roboto-Bold.ttf");
 }
 
 @font-face {
-    font-family: "Open Sans Semi Bold";
-    src: url("font/OpenSans-SemiBold.ttf");
+    font-family: "Roboto Medium";
+    src: url("font/Roboto-Medium.ttf");
 }
 
 @font-face {
-    font-family: "Open Sans Light";
-    src: url("font/OpenSans-Light.ttf");
+    font-family: "Roboto Light";
+    src: url("font/Roboto-Light.ttf");
 }
 
 @font-face {
-    font-family: "Open Sans Regular";
-    src: url("font/OpenSans-Regular.ttf");
+    font-family: "Roboto Regular";
+    src: url("font/Roboto-Regular.ttf");
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Open Sans Semi Bold", sans-serif;
+    font-family: "Roboto Medium", sans-serif;
     margin-top: 0;
     margin-bottom: 0;
     letter-spacing: 2.1px;
     font-size: 21px;
     padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
     color: var(--fc-blue);
 }
 
@@ -213,10 +215,11 @@ h1 {
     padding-top: 32px;
     padding-left: 55px;
     padding-right: 55px;
+    padding-bottom: 0;
 }
 
 h2 {
-    font-family: "Open Sans Regular", sans-serif;
+    font-family: "Roboto Regular", sans-serif;
     font-size: 2.0rem;
     line-height: 1.25;
     letter-spacing: -.1rem;
@@ -259,6 +262,14 @@ p {
     margin-top: 0;
 }
 
+.tab-content {
+    padding-top: 12px;
+}
+
+.jsx-4017309047 {
+    padding-top: 0px;
+}
+
 /* Blockquotes */
 blockquote {
     border-left: 4px lightgrey solid;
@@ -286,13 +297,13 @@ a:hover {
     background-color: #505050
 }
 .main-svg {
-    font-family: "Open Sans Semi Bold", sans-serif
+    font-family: "Roboto Medium", sans-serif
 }
 .gtitle {
-    font-family: "Open Sans Semi Bold", sans-serif !important
+    font-family: "Roboto Medium", sans-serif !important
 }
 .g-title {
-    font-family: "Open Sans Semi Bold", sans-serif
+    font-family: "Roboto Medium", sans-serif
 }
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
@@ -578,7 +589,7 @@ a {
 
 .Select-value-label .Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control .Select {
     color: black;
-    font-family: "Open Sans Light", sans-serif;
+    font-family: "Roboto Light", sans-serif;
     font-size: smaller;
 }
 
@@ -609,7 +620,7 @@ a {
 
 #date {
     background-color: #1e1e1e;
-    font-family: "Open Sans Light", sans-serif;
+    font-family: "Roboto Light", sans-serif;
     font-weight: 400;
     color: #dbdbdb;
     border: 0.5px solid #dbdbdb44;

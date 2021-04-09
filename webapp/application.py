@@ -105,10 +105,22 @@ app.layout = html.Div([
                                 dcc.Tab(label="SZG", children=[dcc.Markdown(id="szg")])
                      ]),
                      html.H2(id="best_prh"),
-                     dcc.Markdown(id="best_pr")]
-                 )
+                     dcc.Markdown(id="best_pr"),
+                     dcc.Tabs([
+                             dcc.Tab(label="1", children=[dcc.Markdown(id="bp1")]),
+                             dcc.Tab(label="2", children=[dcc.Markdown(id="bp2")]),
+                             dcc.Tab(label="3", children=[dcc.Markdown(id="bp3")]),
+                             dcc.Tab(label="4", children=[dcc.Markdown(id="bp4")]),
+                             dcc.Tab(label="5", children=[dcc.Markdown(id="bp5")]),
+                             dcc.Tab(label="6", children=[dcc.Markdown(id="bp6")]),
+                             dcc.Tab(label="7", children=[dcc.Markdown(id="bp7")]),
+                             dcc.Tab(label="8", children=[dcc.Markdown(id="bp8")]),
+                             dcc.Tab(label="9", children=[dcc.Markdown(id="bp9")])
+                 ])
+                 ])
         ])
 ])
+
 
 @ app.callback(
     [Output("h1", "children"),
@@ -116,7 +128,15 @@ app.layout = html.Div([
      Output("szg", "children"),
      Output("interpr", "children"),
      Output("best_prh", "children"),
-     Output("best_pr", "children")],
+     Output("bp1", "children"),
+     Output("bp2", "children"),
+     Output("bp3", "children"),
+     Output("bp4", "children"),
+     Output("bp5", "children"),
+     Output("bp6", "children"),
+     Output("bp7", "children"),
+     Output("bp8", "children"),
+     Output("bp9", "children")],
     [Input("lang-selector", "value")])
 
 
@@ -126,7 +146,15 @@ def multi_output(value):
            ml.szg[value], \
            ml.interpr[value], \
            ml.best_prh[value], \
-           ml.best_pr[value]
+           ml.bp1[value], \
+           ml.bp2[value], \
+           ml.bp3[value], \
+           ml.bp4[value], \
+           ml.bp5[value], \
+           ml.bp6[value], \
+           ml.bp7[value], \
+           ml.bp8[value], \
+           ml.bp9[value]
 
 
 if __name__ == '__main__':

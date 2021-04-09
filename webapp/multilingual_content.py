@@ -185,57 +185,406 @@ de="Best Practices"
 )
 
 bp1 = dict(
-en="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-it="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-de="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien."
+en=
+"""
+### COPERNICUS HACKATHON VICENZA
+
+DURATION: February 15th-16th 2020 
+
+PARTNER: Copernicus, AZO, Digital Innovation Hub Vicenza (DIH), Confartigianato Imprese Vicenza, ASI, ISPRA, ESA, Cà Foscari University of Venice, Serco, Repubblica Digitale, arpav, artes, Veneto Region
+
+BENEFICIARIES: university students, PhD students, researchers and entrepreneurs
+
+INDICATORS: more than 100 people involved (staff and participants), 36 hours non-stop activities, 4 days training session at Ca’ Foscari University, 1 training session at DIH Vicenza at DIH Vicenza (Bootcamp). 
+
+OVERVIEW: the challenge “Brains Marathon in the Digital Era” was to start from a wide range of data to develop innovative solutions within the Space Economy. Participating in the Copernicus Hackathon meant focusing in current issues of interest to the community: two intense days in which participants put themselves to the test by working in interdisciplinary teams, sharing and experiencing the digital world in all its forms. A healthy and up-to-date way of competing by generating ideas that can improve the world.
+
+[WEBSITE](https://digitalinnovationhubvicenza.it/copernicus-hackathon-vicenza-2020-official-video/)
+""",
+it=
+"""
+### COPERNICUS HACKATHON VICENZA
+
+DURATA: 15-16 febbraio 2020 
+
+LUOGO: Vicenza, Veneto, Italia
+
+PARTNER: Copernicus, AZO, Digital Innovation Hub Vicenza (DIH), Confartigianato Imprese Vicenza, ASI, ISPRA, ESA, Università Cà Foscari Venezia, Serco, Repubblica Digitale, arpav, artes, Regione Veneto
+
+BENEFICIARI: studenti universitari, dottorandi, ricercatori e imprenditori. 
+
+INDICATORI: più di 100 persone coinvolte (tra staff e partecipanti), 36h non stop di attività, 4 giorni di formazione presso la Cà Foscari, una giornata di formazione presso il DIH (Bootcamp).
+
+SINTESI: Partire da una vasta gamma di dati per arrivare allo sviluppo di soluzioni innovative in ambito di space economy è stata la sfida di questa “Maratona di Cervelli in Epoca Digitale”. Partecipare al Copernicus Hackathon ha significato quindi immergersi completamente in tematiche attuali che interessano la collettività: due giorni intensi in cui ci si è messi in gioco lavorando in team interdisciplinari, condividendo e sperimentando il mondo digital in tutte le sue forme. Un sano e attuale modo di competere generando idee che possono migliorare il mondo.
+
+[SITO](https://digitalinnovationhubvicenza.it/copernicus-hackathon-vicenza-2020-official-video/)
+
+""",
+de=
+"""
+
+"""
 )
 
 bp2 = dict(
-en="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-it="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-de="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien."
+en=
+"""
+### CERTIFICATION TRAINING AT LEARNING CENTER COMAU
+
+DURATION: June/ July/September 2020 
+
+PARTNERS: Digital Innovation Hub (DIH) Vicenza, Confartigianato Imprese Vicenza, COMAU, Mechatronic tecchnical and specialized Institute (ITS Meccatronico) Vicenza, FabLab Belluno, Cre-Ta
+
+
+BENEFICIARIES: talented young people (20/30 years old) keen on digital technologies
+
+INDICATORS: about 10 young people acceded this training course
+
+OVERVIEW: The course was organised in several training held at the COMAU Academy in Turin and at the DIH Learning Centre in Vicenza. Thanks to COMAU e.DO Robots, it is possible to create an innovative learning environment where young people can develop their skills. Moreover, it is a highly engaging educational environment where to explore the potential of Robotics, learning while having fun and using robots to deepen scientific subjects or to create technological prototypes.
+
+[WEBSITE](https://digitalinnovationhubvicenza.it/learning-center/)
+""",
+it=
+"""
+### FORMAZIONE PER CERTIFICAZIONE AL LEARNING CENTER COMAU
+
+DURATA: giugno/luglio/settembre 2020
+
+LUOGO: Vicenza, Veneto, Italia
+
+PARTNER: Digital Innovation Hub Vicenza (DIH), Confartigianato Imprese Vicenza, COMAU, ITS Meccatronico Vicenza, FabLab Belluno, Cre-Ta
+
+BENEFICIARI: ragazzi tra i 20 e i 30 anni, talentuosi e appassionati di tecnologie digitali
+
+INDICATORI: 10 ragazzi hanno potuto usufruire di questo percorso di formazione
+
+SINTESI: Il percorso è stato organizzato in diverse giornate di formazione svolte presso l’Academy COMAU di Torino e presso il Learning Center del DIH. Grazie agli e.DO Robot di COMAU è possibile creare un ambiente innovativo di apprendimento dove i giovani possono sviluppare le proprie competenze. Non solo, si tratta di un ambiente educativo altamente coinvolgente nel quale scoprire il potenziale della Robotica, imparando divertendosi e utilizzando i robot per approfondire le materie scientifiche o per realizzare propri prototipi tecnologici. 
+
+[SITO](https://digitalinnovationhubvicenza.it/learning-center/)
+""",
+de=
+"""
+
+"""
 )
 
 bp3 = dict(
-en="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-it="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-de="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien."
+en=
+"""
+### ACADEMY CONFARTIGIANATO VICENZA
+
+DURATION: September 2020-June 2021 (school year)
+
+LOCATION: Vicenza, Veneto, Italy 
+
+PARTNERS: 1st and 2nd level schools, Municipality of Vicenza, Digital Innovation Hub (DIH), Chamber of Commerce, Alumni Scuola Galileiana of the University of Padua, Local Educational Office
+
+
+BENEFICIARIES: students and teachers
+
+INDICATORS: 9 events, 179 teachers and 2,062 students
+
+SUMMARY: Permanent training project, addressing students and teachers of all school levels, and enabling them to some basic competences through the learning by doing method. The teaching aiming at the achievement of competences is innovative in terms of learning-teaching processes, based on concrete educational and professional competences, clearly observable, assessable and certifiable. Activities include teacher trainings and student courses, covering both art and STEM workshops. The methodology used for the courses, focused on cooperative learning, team building and problem solving, allows technical and digital skills to be combined with social and transversal ones. Academy 
+The teaching oriented towards the achievement of competences aims to deeply innovate the logic of the learning-teaching processes, no longer based on contents and programs, as in the past, but on concrete, educational and professional skills, clearly observable, assessable and certifiable.
+
+[WEBSITE](https://www.confartigianatovicenza.it/ufficio-scuola/academy-confartigianato/)
+""",
+it=
+"""
+### ACADEMY CONFARTIGIANATO VICENZA
+
+DURATA: settembre 2020-giugno 2021 (anno scolastico)
+
+LUOGO: Vicenza, Veneto, Italia 
+
+PARTNER: Scuole di I e di II grado, Comune di Vicenza, Digital Innovation Hub, Camera di Commercio, Associazione Alumni Scuola Galileiana dell’Università di Padova, Ufficio Scolastico Provinciale
+
+BENEFICIARI: studenti e docenti
+
+INDICATORI: 9 eventi, 179 docenti e 2.062 studenti
+
+SINTESI: Contenitore formativo permanente, dedicato a studenti e docenti di ogni livello scolare che permette di raggiungere alcune competenze di base attraverso il metodo learning by doing. La didattica orientata al conseguimento di competenze si propone di innovare profondamente la logica dei processi di apprendimento-insegnamento, basandosi su competenze educative e professionali concrete, chiaramente osservabili, valutabili e certificabili. Le attività sono distinte in formazione per docenti e in corsi per studenti e riguardano sia laboratori artistici che laboratori STEM. Il metodo utilizzato per i corsi, centrato sul cooperative learning, sul team building e sul problem solving, permette di abbinare alle competenze tecniche e digitali anche quelle sociali e trasversali. 
+
+[SITO](https://www.confartigianatovicenza.it/ufficio-scuola/academy-confartigianato/)
+""",
+de=
+"""
+
+"""
 )
 
 bp4 = dict(
-en="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-it="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-de="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien."
+en=
+"""
+### I-DIGITAL: DIGITAL COMPETENCES FOR 4.0 JOBS
+
+DURATION: January 2019 - December 2020
+
+LOCATION: Veneto Region, Italy
+
+PARTNERS: Edulife, IFOA, H-FARM, Confindustria SIAV, specializing training centres
+
+
+BENEFICIARIES: employees from companies located in Veneto region
+
+INDICATORS: 188 users, 444 hours of training and laboratories activities in teams, 90 hours of individual coaching 
+
+OVERVIEW: 
+The project, funded by the ESF (European Social Fund) within the framework of the 1311/2018 Regional Law, aimed at supporting employees in becoming aware of their competencies and expertise to adapt to the current digital evolution and develop greater competitiveness on the labour market. Training sessions focused on three sets of competencies: topics as artificial intelligence, cloud computing and internet of things, and sessions addressing the “know how to do” (programming language and machine learning) and the “know how to think” (design thinking e visual thinking).
+
+[WEBSITE](https://t2i.drive.fastcloud.it/invitations?share=e9bdb45d9bb48ba100d7&dl=0)
+""",
+it=
+"""
+### I-DIGITAL: COMPETENZE DIGITALI PER IL LAVORO 4.0
+
+DURATA: gennaio 2019 - dicembre 2020
+
+LUOGO: Veneto, Italia
+
+PARTNER: Edulife, IFOA, H-FARM, Confindustria SIAV, enti di formazione specializzati
+
+BENEFICIARI: lavoratori dipendenti di aziende con sede in Veneto
+
+INDICATORI: 188 utenti, 444 ore di attività formativa e laboratoriale in gruppo, 90 ore di coaching individuale
+
+SINTESI: Il progetto, finanziato dal FSE (Fondo Sociale Europeo) nell’ambito della DGR 1311/2018, rispondeva all’obiettivo generale di accompagnare i lavoratori verso la consapevolezza delle proprie competenze e professionalità all’interno dell’evoluzione digitale in atto, al fine di mantenere e sviluppare una maggiore competitività nel mercato del lavoro. La formazione si è incentrata su tre set di competenze: temi quali intelligenza artificiale, cloud computing e internet delle cose, e interventi dedicati al “saper fare” (linguaggi di programmazione e machine learning) e al “saper pensare” (design thinking e visual thinking).
+
+SITO:
+(https://t2i.drive.fastcloud.it/invitations?share=e9bdb45d9bb48ba100d7&dl=0)
+
+""",
+de=
+"""
+
+"""
 )
 
 bp5 = dict(
-en="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-it="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-de="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien."
+en=
+"""
+### EES AA – ENTREPRENEURIAL ECOSYSTEM ALPE ADRIA - TRAINING LABORATORIES FOR SELF-ENTREPRENEURSHIP
+
+DURATION: March 2019 - December 2019
+
+LOCATION: Veneto Region, Italy
+
+PARTNERS: high schools from Treviso and Belluno provinces (technical commercial institutes, computer experts, chemical and biotechnology experts, electronic experts and art school)
+
+
+BENEFICIARIES: students from the last three years of high school 
+
+INDICATORS: 7 training laboratories formativi (12 hours each), 100 students 
+
+OVERVIEW: These training laboratories were conceived under the EES AA project, funded by the Interreg Programme V-A Italy-Austria 2014-2020, in order to promote entrepreneurship and self-initiative among high school students, asking them to develop a new idea of service or a new product. All resulting solutions included the use of 4.0 digital technologies.
+
+[WEBSITE](http://www.t2i.it/innovazione-ricerca-finanziamento/networking-ricerca-trasferimento-tecnologico/progetti-innovativi/entrepreneurial-ecosystem-alpe-adria-ees-aa/)
+
+""",
+it=
+"""
+### EES AA – ENTREPRENEURIAL ECOSYSTEM ALPE ADRIA - LABORATORI FORMATIVI PER L’AUTO-IMPRENDITORIALITÀ
+
+DURATA: marzo 2019 - dicembre 2019
+
+LUOGO: Veneto, Italia
+
+PARTNER: scuole secondarie di II grado delle Province di Treviso e Belluno (Istituti tecnico commerciale, perito informatico, perito chimico e biotecnologie, perito elettronico e liceo artistico)
+
+BENEFICIARI: studenti degli ultimi tre anni 
+
+INDICATORI: 7 laboratori formativi della 
+DURATA di 12 ore, 100 studenti 
+
+SINTESI: Nell’ambito del progetto EES AA, finanziato dal Programma Interreg V-A Italia-Austria 2014-2020, è stato sviluppato un percorso formativo laboratoriale pensato per stimolare imprenditorialità e senso di iniziativa negli studenti delle scuole superiori, chiedendo loro di sviluppare una nuova idea di servizio o un nuovo prodotto. Tutte le soluzioni elaborate dagli studenti prevedevano l’utilizzo di tecnologie digitali 4.0.
+
+[SITO](http://www.t2i.it/innovazione-ricerca-finanziamento/networking-ricerca-trasferimento-tecnologico/progetti-innovativi/entrepreneurial-ecosystem-alpe-adria-ees-aa/)
+
+""",
+de=
+"""
+
+"""
 )
 
 bp6 = dict(
-en="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-it="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-de="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien."
+en=
+"""
+### WOMEN4IT
+
+DURATION: September 2018 and August 2021
+
+LOCATION: Greece, Ireland, Latvia, Lithuania, Malta, Romania and Spain
+
+PARTNERS: LIKTA – The Latvian Information and Communications Technology Association, BETI – Baltic Education Technology Institute, MCA – Malta Communications Authority, CRETHIDEV – Creative Thinking and Development, ICS Skills – Training and Certification Body of the Irish Computer Society, PLAN International – Advancing children’s rights and equality for girls, Fundatia EOS – Educating for an Open Society, ECWT – The European Centre for Women and Technology, DIGITALEUROPE – The voice of the digital technology industry in Europe
+
+BENEFICIARIES: Young women (one thousand)
+
+INDICATORS: 10,000 of young people reached by digital career awareness activities; 350 employers introduced to innovative solutions; 1,000 young girls and women assessed by the profiling tool; 700 target groups enrolled in education and training, including work
+
+OVERVIEW: The project aims to support young women in taking up digital careers, which is crucial both for the competitiveness of European industries and for the inclusiveness of European society in the digital age. Activities include: awareness-raising on digital skills and gender gaps, skills assessment, innovative partnerships with employers, development of an online employability profiling tool and training platform, and employment guidance in digital jobs.
+
+[WEBSITE](https://women4it.eu/)
+""",
+it=
+"""
+### WOMEN4IT
+
+DURATA: settembre 2018 - agosto 2021
+
+LUOGO: Grecia, Irlanda, Lettonia, Lituania, Malta, Romania e Spagna
+
+PARTNER: LIKTA – The Latvian Information and Communications Technology Association, BETI – Baltic Education Technology Institute, MCA – Malta Communications Authority, CRETHIDEV – Creative Thinking and Development, ICS Skills – Training and Certification Body of the Irish Computer Society, PLAN International – Advancing children’s rights and equality for girls, Fundatia EOS – Educating for an Open Society, ECWT – The European Centre for Women and Technology, DIGITALEUROPE – The voice of the digital technology industry in Europe
+
+BENEFICIARI: Giovani donne a rischio esclusione dal mercato del lavoro
+
+INDICATORI: 10.000 giovani raggiunti con attività di sensibilizzazione alla carriera digitale; 350 datori di lavoro introdotti a soluzioni innovative; 1000 ragazze e giovani donne valutate tramite strumento di profilazione; 700 gruppi target iscritti alla formazione, incluso il lavoro
+
+SINTESI: Il progetto intende supportare le giovani donne a intraprendere percorsi lavorativi in ambito digitale, aspetto cruciale sia per la competitività dell’industria europea, sia per l’inclusività della società europea nell’era digitale. Le attività includono: sensibilizzazione sulle competenze digitali e il divario di genere, valutazione delle competenze, partenariati innovativi con i datori di lavoro, sviluppo di uno strumento online di profilazione dell'occupabilità e di una piattaforma di formazione, e orientamento all'occupazione nei lavori digitali.
+
+[SITO](https://women4it.eu/)
+""",
+de=
+"""
+
+"""
 )
 
 bp7 = dict(
-en="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-it="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-de="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien."
+en=
+"""
+### DITACT _WOMEN’S IT SUMMER SCHOOL
+
+DURATION: 2003 – today 
+
+LOCATION: Salzburg, Austria
+
+PARTNERS: University of Salzburg: GENDUP Department - Gender Studies and the Advancement of Women, in cooperation with the Department of Applied Sciences. Over the years, new partnerships have been created.
+
+
+BENEFICIARIES: women
+
+INDICATORS: in 2020, 56 courses and 275 participants (60 more than in 2019)
+
+OVERVIEW: This project aims to help increase women's participation in computer science and IT courses in universities and technical schools. Under DITACT, women can learn, work and network together, focusing on the basics, specialisations and applications of computer science, management, career planning, IT and teaching.
+
+[WEBSITE](https://ditact.ac.at/)
+""",
+it=
+"""
+### DITACT _WOMEN’S IT SUMMER SCHOOL
+
+DURATA: 2003 - oggi
+
+LUOGO: Salisburgo, Austria
+
+PARTNER: Università di Salisburgo: dipartimento GENDUP - Studi di Genere e Avanzamento delle Donne, in cooperazione con il Dipartimento di Scienze applicate. Nel tempo sono state attivate collaborazioni anche con altri partner.
+
+BENEFICIARI: donne
+
+INDICATORI: nel 2020, 56 corsi e 275 partecipanti (60 in più rispetto al 2019)
+
+SINTESI:
+Tale progetto intende contribuire ad incrementare la partecipazione delle donne ai corsi di computer science e IT nelle università e negli istituti tecnici. Nell’ambito di DITACT, le donne possono imparare, lavorare e fare rete insieme, concentrandosi su basi, specializzazioni e applicazioni di informatica, gestione, pianificazione della carriera, IT e didattica.
+
+[SITO](https://ditact.ac.at/)
+""",
+de=
+"""
+
+"""
 )
 
 bp8 = dict(
-en="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-it="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-de="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien."
+en=
+"""
+### DIGISCOUTS
+
+DURATION: May 2018 - December 2021 (each project lasts 3-6 months)
+
+LOCATION: Eschborn, Germany
+
+PARTNERS: Chambers of Commerce and economic development associations in the respective regions
+
+
+BENEFICIARIES: companies, trainers and apprentices
+
+INDICATORS: since 2018 - 154 companies, 500 apprentices in 17 regions of Germany. Currently, 63 companies with more than 200 new apprentices are participating in the project.
+
+OVERVIEW:
+New forms of knowledge transfer and digital competences development at work. Why not capitalise on young people's interest in digitalisation to make dual training in companies more attractive and at the same time create benefits for the company? As part of an apprenticeship project, at least two apprentices in each company (supervised by experienced coaches) find out where there is potential for digitisation in the company to increase its economic success. This is a great opportunity to increase their digital skills, work on a digital platform, develop their knowledge with e-learning and gain experience in project management, leading to excellent ideas and projects.
+
+[WEBSITE 1](https://www.digiscouts.de/),
+[WEBSITE 2](https://www.rkw-kompetenzzentrum.de/fachkraeftesicherung/projekte/ausbildungsmarketing-und-digiscoutsr/digiscoutsr-auszubildende-digitalisieren-ihren-betrieb/)
+""",
+it=
+"""
+### DIGISCOUTS
+
+DURATA: maggio 2018 – dicembre 2021 (ogni progetto dura 3-6 mesi)
+
+LUOGO: Eschborn, Germania
+
+PARTNER: Camere di commercio e associazioni per lo sviluppo economico nelle rispettive regioni
+
+BENEFICIARI: aziende, istruttori e apprendisti
+
+INDICATORI: dal 2018 a oggi - 154 aziende, 500 apprendisti in 17 regioni della Germania. Attualmente, 63 aziende con più di 200 nuovi apprendisti stanno partecipando al progetto.
+
+SINTESI:
+Nuove forme di trasferimento delle conoscenze e di sviluppo delle competenze digitali sul posto di lavoro. Perché non sfruttare l'interesse dei giovani per la digitalizzazione per rendere più attraente la formazione duale nelle aziende e allo stesso tempo creare vantaggi per l'azienda? Come parte di un progetto di apprendistato, almeno due apprendisti in ogni azienda (seguiti da coach esperti) scoprono dove sia il potenziale di digitalizzazione nell'azienda per aumentarne il successo economico. È un’occasione per ampliare le loro competenze digitali, lavorare su una piattaforma digitale, per sviluppare conoscenze con l'e-learning e fare esperienza nella gestione dei progetti, arrivando a realizzare idee e progetti eccellenti.
+
+[SITO 1](https://www.digiscouts.de/), [SITO 2](https://www.rkw-kompetenzzentrum.de/fachkraeftesicherung/projekte/ausbildungsmarketing-und-digiscoutsr/digiscoutsr-auszubildende-digitalisieren-ihren-betrieb/)
+""",
+de=
+"""
+
+"""
 )
 
 bp9 = dict(
-en="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-it="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien.",
-de="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien."
+en=
+"""
+### InnoVET
+
+DURATION: 2019 - 2024
+
+LOCATION: Germany
+
+PARTNERS: Federal Ministry of Education and Research of Germany (BMBF), vocational schools, companies, inter-company vocational training centers (ÜBS), training centers, advisory institutions, research institutions and universities.
+
+
+BENEFICIARIES: Young people, graduates, educational institutions, companies 
+
+INDICATORS: total budget of € 82 million, 17 projects (max. duration of 48 months), 89 joint partners
+
+OVERVIEW: An innovation competition launched for excellent vocational training: those projects develop and test attractive and high-quality qualification offers in order to encourage young people to start training or specialise. The qualification offers are based on the needs of the company and help to train highly qualified specialists.
+
+[WEBSITE](https://www.inno-vet.de/index.html)
+""",
+it=
+"""
+### InnoVET
+
+DURATA: 2019 - 2024
+
+LUOGO: Germania
+
+PARTNER: Ministero Federale Tedesco per l’Istruzione e la Ricerca, scuole professionali, aziende, centri di formazione interaziendale, centri di formazione, università, istituti di ricerca e società di consulenza.
+
+BENEFICIARI: aziende, istituti di formazione, giovani, laureati 
+
+INDICATORI: budget complessivo di € 82 milioni, 17 progetti della durata massima di tre anni, 89 partner coinvolti
+
+SINTESI: Una competizione per innovare la formazione professionale e renderla un’eccellenza: i progetti sviluppano e testano offerte di qualifiche attrattive e di alta qualità così da incentivare i giovani a formarsi e a specializzarsi. Tali offerte si basano sui bisogni delle aziende e promuovono la formazione di specialisti altamente qualificati.
+
+[SITO](https://www.inno-vet.de/index.html)
+""",
+de=
+"""
+
+"""
 )
+
 # Prepare a list of all variables declared above
 variables = [v for v in dir() if "__" not in v]

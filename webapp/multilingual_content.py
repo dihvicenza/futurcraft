@@ -3,16 +3,16 @@ This file contains strings to translate the Dash app into 3 languages: English, 
 All the content variable names must be identical to 'id' attributes of the corresponding html elements
 """
 h1 = {
-"en": "Match Between Afterschool Skills and Digital Assessment of Companies",
+"en": "Match between digital competences in schools and companies’ digital assessment",
 "de": "Übereinstimmung zwischen Fähigkeiten aus Schulen und digitaler Bewertung von Unternehmen",
-"it": "Match tra competenze in uscita dalle scuole e Digital Assessment delle aziende"
+"it": "Match tra competenze digitali in uscita dalle scuole e Digital Assessment delle aziende"
 }
 
 p_desc = {
 "en": """
 Digitization advances and leads to important and significant changes in the world of artisan work. What will be the artisan crafts of the future? How will traditional ones change? What new technologies will be used, and what skills required? The FuturCRAFT project helps to respond to these questions by defining the possible future scenarios of professional profiles and making them tangible for artisan businesses.
 
-This infographic was developed under the project to show how the school system is adapting to the rapid digitalization of recent years and how it responds to the demand for new digital skills by the artisan labor market. The data on the current training offer were collected by sending Digicheck \[1\] to the leading secondary schools of II degree and professional training centers located in the project's areas \[2\]. As examples relevant to these areas, it was chosen to start analyzing only two training directions, mechatronics and carpentry \[3\]. The companies' digital maturity data were instead collected regardless of the economic sector to which they belong. For the provinces of Vicenza, Treviso, Belluno, and Bolzano, the raw data was provided by Unioncamere \[4\], while other relevant institutional sources were used for the province of Salzburg \[5\].
+This infographic was developed under the project to show how the school system is adapting to the rapid digitalization of recent years and how it responds to the demand for new digital skills by the artisan labor market. The data on the current training offer were collected by sending Digicheck \[1\] to the leading secondary schools of II degree and professional training centers located in the project's areas \[2\]. As examples relevant to these areas, it was chosen to start analyzing only two training directions, mechatronics and carpentry \[3\]. The companies' digital maturity data were instead collected regardless of the economic sector to which they belong. For the provinces of Vicenza, Treviso, Belluno, and Bolzano, the raw data was provided by the Punto Impresa Digitale project of the Italian Chambers of Commerce \[4\], while other relevant institutional sources were used for the province of Salzburg \[5\].
 
 ---
 
@@ -22,7 +22,7 @@ This infographic was developed under the project to show how the school system i
 2. Autonomous Province of Bolzano, Province of Treviso, Belluno and Vicenza, Region of Salzburg
 3. 39 received replies: 19 from the Bolzano area, 11 from Vicenza, 2 from Treviso, 2 from Belluno and 5 from Salzburg
 4. [SELFI4.0 Survey Project, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - aggregated data of the provinces of TV, VI and BZ (1116 collected questionaries)
-5. Processing by [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) on data from [STATISTIK AUSTRIA](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html)
+5. Processing by [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) on data from [STATISTIK AUSTRIA](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html): TREND-GUIDE DIGITALISIERUNG - Zukunftsinstitut GmbH 2020; DIGITALDOSSIER ÖSTERREICH - Bestandsaufnahme zur Digitalisierung in Wirtschaft und Gesellschaf
 
 ---
 
@@ -44,7 +44,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat 
 2. Provincia autonoma di Bolzano, Province di Treviso, Belluno e Vicenza, Regione di Salisburgo
 3. 39 risposte ricevute: 19 dall’area di Bolzano, 11 da Vicenza, 2 da Treviso, 2 da Belluno e 5 da Salisburgo
 4. [Indagine SELFI4.0, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - dati aggregati delle provincie di TV, BL, VI e BZ (1116 questionari raccolti)
-5. Elaborazione di [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) su dati di [STATISTIK AUSTRIA](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html)
+5. Elaborazione di [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) su dati di [STATISTIK AUSTRIA](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html): TREND-GUIDE DIGITALISIERUNG - Zukunftsinstitut GmbH 2020; DIGITALDOSSIER ÖSTERREICH - Bestandsaufnahme zur Digitalisierung in Wirtschaft und Gesellschaf
 
 ---
 
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat 
 "it": """
 La digitalizzazione avanza e porta con sé importanti e significativi cambiamenti nel mondo del lavoro artigiano. Quali saranno i mestieri artigiani del futuro? Come cambieranno quelli tradizionali? Quali nuove tecnologie verranno utilizzate e quali competenze richieste? Il progetto FuturCRAFT contribuisce a rispondere a tali domande definendo i possibili futuri scenari dei profili professionali e rendendoli tangibili per le imprese artigiane.
 
-La presente infografica è stata sviluppata nell’ambito di tale progetto per mostrare quanto il sistema scolastico si stia adattando alla rapida digitalizzazione degli ultimi anni e come stia rispondendo alla richiesta di nuove competenze digitali da parte del mercato del lavoro artigiano. I dati sull’offerta formativa attuale sono stati raccolti tramite l’invio dei Digicheck \[1\] alle principali scuole secondarie di II grado e ai centri di formazione professionale localizzati nelle aree coinvolte dal progetto \[2\]. A titolo esemplificativo e in quanto rilevanti per tali aree, si è scelto di partire dall’analisi di soli due indirizzi di formazione, meccatronico e falegnameria \[3\]. I dati sulla maturità digitale delle aziende sono stati, invece, raccolti indipendentemente dal settore economico di appartenenza. Per le province di Vicenza, Treviso, Belluno e Bolzano si è ricorso ai dati grezzi forniti da Unioncamere \[4\],  mentre per la provincia di Salisburgo si è ricorso ad altre rilevanti fonti istituzionali \[5\].
+La presente infografica è stata sviluppata nell’ambito di tale progetto per mostrare quanto il sistema scolastico si stia adattando alla rapida digitalizzazione degli ultimi anni e come stia rispondendo alla richiesta di nuove competenze digitali da parte del mercato del lavoro artigiano. I dati sull’offerta formativa attuale sono stati raccolti tramite l’invio dei Digicheck \[1\] alle principali scuole secondarie di II grado e ai centri di formazione professionale localizzati nelle aree coinvolte dal progetto \[2\]. A titolo esemplificativo e in quanto rilevanti per tali aree, si è scelto di partire dall’analisi di soli due indirizzi di formazione, meccatronico e falegnameria \[3\]. I dati sulla maturità digitale delle aziende sono stati, invece, raccolti indipendentemente dal settore economico di appartenenza. Per le province di Vicenza, Treviso, Belluno e Bolzano si è ricorso ai dati grezzi resi disponibili dal progetto Punto Impresa Digitale delle Camere di Commercio \[4\],  mentre per la provincia di Salisburgo si è ricorso ad altre rilevanti fonti istituzionali \[5\].
 
 ---
 
@@ -64,7 +64,7 @@ La presente infografica è stata sviluppata nell’ambito di tale progetto per m
 2. Provincia autonoma di Bolzano, Province di Treviso, Belluno e Vicenza, Regione di Salisburgo
 3. 39 risposte ricevute: 19 dall’area di Bolzano, 11 da Vicenza, 2 da Treviso, 2 da Belluno e 5 da Salisburgo
 4. [Indagine SELFI4.0, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - dati aggregati delle provincie di TV, BL, VI e BZ (1116 questionari raccolti)
-5. Elaborazione di [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) su dati di [STATISTIK AUSTRIA](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html)
+5. Elaborazione di [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) su dati di [STATISTIK AUSTRIA](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html): TREND-GUIDE DIGITALISIERUNG - Zukunftsinstitut GmbH 2020; DIGITALDOSSIER ÖSTERREICH - Bestandsaufnahme zur Digitalisierung in Wirtschaft und Gesellschaf
 
 ---
 
@@ -76,14 +76,14 @@ szg = {
 "en": """
 **⚠ NOTA BENE: The data on Austrian companies’ digital assessment are very general and not referable to the only Region of Salzburg. Thus, they cannot be compared with those from Italian companies nor be integrated into the infographic.**
 
-The educational offer in Salzburg is similar to the one we find in Treviso and Belluno. All the following competencies are developed, but not in all involved schools: *Cloud Manufacturing* in 3 schools, *Advanced Automation* in 5 ones, *Industrial Analytics* in 2 ones, Industrial IoT in 4 ones, 2 in *Advanced HMI* (Human-machine Interaction) in 2 ones, and *Additive Manufacturing* in 3 ones.
+The educational offer in Salzburg is similar to the one we find in Treviso and Belluno. All the following competencies are developed, but not in all involved schools: *Cloud Manufacturing* in 3 schools, *Advanced Automation* in 5 ones, *Industrial Analytics* in 2 ones, Industrial IoT in 4 ones, *Advanced HMI* (Human-machine Interaction) in 2 ones, and *Additive Manufacturing* in 3 ones.
 
 **Additive Manufacturing**
 
-Additive Manufacturing - In 2017, 4% of Austrian enterprises used 3D printing (either using their own 3D printers or using other companies’ 3D printers). In particular, 8% of companies using 3D printing were from the producing sector; instead, 3% of them were from the servicing sector. 84% of companies used it for internal purposes, instead 50% for sale (50%).
+Additive Manufacturing - In 2017, 4% of Austrian enterprises used 3D printing (either using their own 3D printers or using other companies’ 3D printers). In particular, 8% of companies using 3D printing were from the producing sector; instead, 3% of them were from the servicing sector. 84% of companies used it for internal purposes, instead 50% for sale.
 
 **Advanced HMI**
-Almost every third Austrian company used smart devices or systems in 2020 (32%), most often these are used in energy management to optimize energy consumption, e.g. in the form of smart meters, lamps or thermostats (19%). 11% of companies used intelligent devices or systems for transport (e.g. through motion sensors to record the movement of vehicles or products) or for maintenance (e.g. through maintenance sensors for needs-based maintenance of vehicles or machines). In general: the larger the company, the more likely smart devices or systems are used.
+One third of Austrian companies used smart devices or systems in 2020 (32%), most often these are used in energy management to optimize energy consumption, e.g. in the form of smart meters, lamps or thermostats (19%). 11% of companies used intelligent devices or systems for transport (e.g. through motion sensors to record the movement of vehicles or products) or for maintenance (e.g. through maintenance sensors for needs-based maintenance of vehicles or machines). In general: the larger the company, the more likely smart devices or systems are used.
 
 **Industrial IoT**
 More and more companies in the DACH region are benefiting from IoT, as the study “Internet of things 2019/2020” shows. 51% of the 444 companies surveyed have already implemented IoT projects, 93% of which were rated as satisfactory. And also (cyber) security plays an important role in this context.
@@ -95,7 +95,7 @@ As a result of the increase in digital devices and systems, the amount of data i
 5% of the companies use stationary industrial robots for production processes, which are normally most frequently used for the production of goods (23%). Autonomous service robots are used in 2% of companies. Here the company size plays an important role.
 
 **Cloud Manufacturing**
-According to Statistics Austria, 38% of Austrian companies use cloud services. The average number of services companies use over the Internet has also increased throughout the years. In addition, in 2020 every third company (32%) relied on smart devices or systems in at least one of their business areas - e.g. on smart meters, intelligent maintenance sensors for machines and vehicles or on sensors for automating logistics or production processes.
+According to Statistics Austria, 38% of Austrian companies use cloud services. The average number of services companies use over the Internet has also increased throughout the years. In addition, in 2020 one third of companies (32%) relied on smart devices or systems in at least one of their business areas - e.g. on smart meters, intelligent maintenance sensors for machines and vehicles or on sensors for automating logistics or production processes.
 """,
 
 "it": """
@@ -160,14 +160,14 @@ interpr = dict(
 en="""
 **How to interpret this infographic?** The intensity of the *yellow color* illustrates how widespread are different competencies (vertical axis) within the companies located in the involved provinces (horizontal axis). A *blue square* inside each cell represents the educational offer in the particular intersection of competence with a province: the bigger is the square , the more schools teach that technology. By hovering the mouse cursor over a cell, you can learn the  specific values: *"Pct. of companies (%)"* identifies the percentage of companies using a particular technology; *"Number of schools"* identifies  how many schools offer that specific competence.
 
-*For example, hover your mouse over a cell Industrial IoT/VI. You can read that 8,6% of companies ("Pct. of companies") utilize Industrial IoT technologies and 11 schools ("Number of schools") offer some related training in this province.*
+*For example, hover your mouse over the cell Industrial IoT/VI: 8,6% of companies ("Pct. of companies") utilize Industrial IoT technologies and 11 schools ("Number of schools") offer some related training in this province.*
 
 ---
 """,
 it="""
-**Come interpretare l’infografica?** L'intensità del *colore giallo* evidenzia quanto siano diffuse le diverse competenze (asse verticale) nelle imprese delle province di interesse (asse orizzontale). Un *quadrato blu* all'interno di ogni cella rappresenta l'offerta formativa nella particolare intersezione di competenza con una provincia: più grande è il quadrato, più le scuole insegnano quella tecnologia. Passando il  il cursore del mouse su una cella, si possono apprendere i valori precisi: *"Pct. of companies (%)"* indica la percentuale   di aziende che utilizzano una particolare tecnologia; *"Number of schools"* indica quante scuole offrono  quella specifica competenza.
+**Come interpretare l’infografica?** L'intensità del *colore giallo* evidenzia quanto siano diffuse le diverse competenze (asse verticale) nelle imprese delle province di interesse (asse orizzontale). Un *quadrato blu* all'interno di ogni cella rappresenta l'offerta formativa nella particolare intersezione di competenza con una provincia: più grande è il quadrato, più le scuole insegnano quella tecnologia. Passando il cursore del mouse su una cella, si possono apprendere i valori precisi: *"Pct. of companies (%)"* indica la percentuale   di aziende che utilizzano una particolare tecnologia; *"Number of schools"* indica quante scuole offrono  quella specifica competenza.
 
-*Ad esempio, metti il mouse sulla cella Industrial IoT/VI. Puoi leggere che in questa provincia l'8,6% delle aziende (campo "Pct. of companies") utilizzano tecnologie IOT industriali e 11 scuole (campo "Number of schools") offrono una formazione correlata.*
+*Ad esempio, metti il mouse sulla cella Industrial IoT/VI: in questa provincia, l'8,6% delle aziende (campo "Pct. of companies") utilizza tecnologie IOT industriali e 11 scuole (campo "Number of schools") offrono una formazione correlata.*
 
 ---
 """,
@@ -229,42 +229,15 @@ de=
 bp2 = dict(
 en=
 """
-### CERTIFICATION TRAINING AT LEARNING CENTER COMAU
-
-DURATION: June/ July/September 2020 
-
-PARTNERS: Digital Innovation Hub (DIH) Vicenza, Confartigianato Imprese Vicenza, COMAU, Mechatronic tecchnical and specialized Institute (ITS Meccatronico) Vicenza, FabLab Belluno, Cre-Ta
-
-
-BENEFICIARIES: talented young people (20/30 years old) keen on digital technologies
-
-INDICATORS: about 10 young people acceded this training course
-
-OVERVIEW: The course was organised in several training held at the COMAU Academy in Turin and at the DIH Learning Centre in Vicenza. Thanks to COMAU e.DO Robots, it is possible to create an innovative learning environment where young people can develop their skills. Moreover, it is a highly engaging educational environment where to explore the potential of Robotics, learning while having fun and using robots to deepen scientific subjects or to create technological prototypes.
-
-[WEBSITE](https://digitalinnovationhubvicenza.it/learning-center/)
+*This content is currently under development. Soon there will be something interesting to read.*
 """,
 it=
 """
-### FORMAZIONE PER CERTIFICAZIONE AL LEARNING CENTER COMAU
-
-DURATA: giugno/luglio/settembre 2020
-
-LUOGO: Vicenza, Veneto, Italia
-
-PARTNER: Digital Innovation Hub Vicenza (DIH), Confartigianato Imprese Vicenza, COMAU, ITS Meccatronico Vicenza, FabLab Belluno, Cre-Ta
-
-BENEFICIARI: ragazzi tra i 20 e i 30 anni, talentuosi e appassionati di tecnologie digitali
-
-INDICATORI: 10 ragazzi hanno potuto usufruire di questo percorso di formazione
-
-SINTESI: Il percorso è stato organizzato in diverse giornate di formazione svolte presso l’Academy COMAU di Torino e presso il Learning Center del DIH. Grazie agli e.DO Robot di COMAU è possibile creare un ambiente innovativo di apprendimento dove i giovani possono sviluppare le proprie competenze. Non solo, si tratta di un ambiente educativo altamente coinvolgente nel quale scoprire il potenziale della Robotica, imparando divertendosi e utilizzando i robot per approfondire le materie scientifiche o per realizzare propri prototipi tecnologici. 
-
-[SITO](https://digitalinnovationhubvicenza.it/learning-center/)
+*Questo contenuto è attualmente in fase di sviluppo. Presto ci sarà qualcosa di interessante da leggere.*
 """,
 de=
 """
-
+*Diese Seite ist im Moment in Bearbeitung. Bald wird es etwas interessantes zu lesen geben.*
 """
 )
 
@@ -350,8 +323,7 @@ INDICATORI: 188 utenti, 444 ore di attività formativa e laboratoriale in gruppo
 
 SINTESI: Il progetto, finanziato dal FSE (Fondo Sociale Europeo) nell’ambito della DGR 1311/2018, rispondeva all’obiettivo generale di accompagnare i lavoratori verso la consapevolezza delle proprie competenze e professionalità all’interno dell’evoluzione digitale in atto, al fine di mantenere e sviluppare una maggiore competitività nel mercato del lavoro. La formazione si è incentrata su tre set di competenze: temi quali intelligenza artificiale, cloud computing e internet delle cose, e interventi dedicati al “saper fare” (linguaggi di programmazione e machine learning) e al “saper pensare” (design thinking e visual thinking).
 
-SITO:
-(https://t2i.drive.fastcloud.it/invitations?share=e9bdb45d9bb48ba100d7&dl=0)
+[SITO](https://t2i.drive.fastcloud.it/invitations?share=e9bdb45d9bb48ba100d7&dl=0)
 
 """,
 de=

@@ -84,7 +84,7 @@ app.layout = html.Div([
                                             value="en",
                                             clearable=False,
                                             options=[{"label": "English", "value": "en"},
-                                                     {"label": "italiano", "value": "it"},
+                                                     {"label": "Italiano", "value": "it"},
                                                      {"label": "Deutsch", "value": "de"}]
                                             )
                                ],

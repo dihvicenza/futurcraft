@@ -22,7 +22,7 @@ This infographic was developed under the project to show how the school system i
 2. Autonomous Province of Bolzano, Province of Treviso, Belluno and Vicenza, Region of Salzburg
 3. 39 received replies: 19 from the Bolzano area, 11 from Vicenza, 2 from Treviso, 2 from Belluno and 5 from Salzburg
 4. [SELFI4.0 Survey Project, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - aggregated data of the provinces of TV, VI and BZ (1116 collected questionaries)
-5. Processing by [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) on data from [STATISTIK AUSTRIA](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html): TREND-GUIDE DIGITALISIERUNG - Zukunftsinstitut GmbH 2020; DIGITALDOSSIER ÖSTERREICH - Bestandsaufnahme zur Digitalisierung in Wirtschaft und Gesellschaf
+5. Processing by [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) on data from the [National Institute of Statistics](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html), Austrian [Chamber of Commerce](https://media.wko.at/epaper/trendguidedigitalisierung/?_ga=2.1038641.1454822841.1606307261-425704757.1594201454#2), and the [Federal Ministry for Digital and Economic Affairs](https://initiatived21.de/app/uploads/2018/12/digital-dossier-oesterreich.pdf)
 
 ---
 
@@ -44,7 +44,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat 
 2. Provincia autonoma di Bolzano, Province di Treviso, Belluno e Vicenza, Regione di Salisburgo
 3. 39 risposte ricevute: 19 dall’area di Bolzano, 11 da Vicenza, 2 da Treviso, 2 da Belluno e 5 da Salisburgo
 4. [Indagine SELFI4.0, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - dati aggregati delle provincie di TV, BL, VI e BZ (1116 questionari raccolti)
-5. Elaborazione di [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) su dati di [STATISTIK AUSTRIA](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html): TREND-GUIDE DIGITALISIERUNG - Zukunftsinstitut GmbH 2020; DIGITALDOSSIER ÖSTERREICH - Bestandsaufnahme zur Digitalisierung in Wirtschaft und Gesellschaf
+5. Processing by [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) on data from the [National Institute of Statistics](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html), Austrian [Chamber of Commerce](https://media.wko.at/epaper/trendguidedigitalisierung/?_ga=2.1038641.1454822841.1606307261-425704757.1594201454#2), and the [Federal Ministry for Digital and Economic Affairs](https://initiatived21.de/app/uploads/2018/12/digital-dossier-oesterreich.pdf)
 
 ---
 
@@ -64,7 +64,7 @@ La presente infografica è stata sviluppata nell’ambito di tale progetto per m
 2. Provincia autonoma di Bolzano, Province di Treviso, Belluno e Vicenza, Regione di Salisburgo
 3. 39 risposte ricevute: 19 dall’area di Bolzano, 11 da Vicenza, 2 da Treviso, 2 da Belluno e 5 da Salisburgo
 4. [Indagine SELFI4.0, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - dati aggregati delle provincie di TV, BL, VI e BZ (1116 questionari raccolti)
-5. Elaborazione di [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) su dati di [STATISTIK AUSTRIA](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html): TREND-GUIDE DIGITALISIERUNG - Zukunftsinstitut GmbH 2020; DIGITALDOSSIER ÖSTERREICH - Bestandsaufnahme zur Digitalisierung in Wirtschaft und Gesellschaf
+5. Elaborazione di [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) su dati dell'[Istituto Nazionale di Statistica](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html), della [Camera di Commercio Austriaca](https://media.wko.at/epaper/trendguidedigitalisierung/?_ga=2.1038641.1454822841.1606307261-425704757.1594201454#2) e del [Ministero Federale per gli Affari Digitali ed Economici](https://initiatived21.de/app/uploads/2018/12/digital-dossier-oesterreich.pdf)
 
 ---
 

@@ -5,7 +5,7 @@ All the content variable names must be identical to 'id' attributes of the corre
 h1 = {
 "en": "Match between digital competences in schools and companies’ digital assessment",
 "de": "Übereinstimmung zwischen Fähigkeiten aus Schulen und digitaler Bewertung von Unternehmen",
-"it": "Match tra competenze digitali in uscita dalle scuole e Digital Assessment delle aziende"
+"it": "Match tra competenze digitali in uscita dalle scuole e digital assessment delle aziende"
 }
 
 p_desc = {
@@ -68,7 +68,7 @@ La presente infografica è stata sviluppata nell’ambito di tale progetto per m
 
 ---
 
-- Sviluppato da [Digital Innovation Hub](https://digitalinnovationhubvicenza.it/) di Confartigianato Vicenza
+- Sviluppato dal [Digital Innovation Hub](https://digitalinnovationhubvicenza.it/) di Confartigianato Vicenza
 - Scopri di più su [Confartigianato Vicenza - FuturCRAFT](https://www.confartigianatovicenza.it/futurcraft/)"""
 }
 

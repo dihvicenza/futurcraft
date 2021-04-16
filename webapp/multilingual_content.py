@@ -229,11 +229,39 @@ de=
 bp2 = dict(
 en=
 """
-*This content is currently under development. Soon there will be something interesting to read.*
+### CERTIFICATION TRAINING AT LEARNING CENTER COMAU
+
+DURATION: June/July/September 2020
+
+LOCATION: Vicenza, Veneto, Italy – Turino, Piemonte, Italy
+
+PARTNERS: Digital Innovation Hub (DIH) Vicenza | Confartigianato Imprese Vicenza, COMAU, Mechatronic tecchnical and specialized Institute (ITS Meccatronico) Veneto, FabLab Belluno, Cre-Ta
+
+BENEFICIARIES: talented young people keen on digital technologies
+
+INDICATORS: about 10 young people acceded this training course
+
+OVERVIEW: The course was organised in several training held at the COMAU Academy in Turin and at the DIH Learning Centre in Vicenza. Thanks to COMAU e.DO Robots, it is possible to create an innovative learning environment where young people can develop their skills. Moreover, it is a highly engaging educational environment where to explore the potential of Robotics, learning while having fun and using robots to deepen scientific subjects or to create technological prototypes.
+
+[WEBSITE](https://digitalinnovationhubvicenza.it/learning-center/)
 """,
 it=
 """
-*Questo contenuto è attualmente in fase di sviluppo. Presto ci sarà qualcosa di interessante da leggere.*
+### FORMAZIONE PER CERTIFICAZIONE AL LEARNING CENTER COMAU
+
+DURATA: giugno/luglio/settembre 2020
+
+LUOGO: Vicenza, Veneto, Italia – Torino, Piemonte, Italia
+
+PARTNER: Digital Innovation Hub Vicenza (DIH) | Confartigianato Imprese Vicenza, COMAU, ITS Meccatronico Veneto, FabLab Belluno, Cre-Ta
+
+BENEFICIARI: ragazzi talentuosi e appassionati di tecnologie digitali
+
+INDICATORI: 10 ragazzi hanno potuto usufruire di questo percorso di formazione
+
+SINTESI: Il percorso è stato organizzato in diverse giornate di formazione svolte presso l’Academy COMAU di Torino e presso il Learning Center del DIH. Grazie agli e.DO Robot di COMAU è possibile creare un ambiente innovativo di apprendimento dove i giovani possono sviluppare le proprie competenze. Non solo, si tratta di un ambiente educativo altamente coinvolgente nel quale scoprire il potenziale della Robotica, imparando divertendosi e utilizzando i robot per approfondire le materie scientifiche o per realizzare propri prototipi tecnologici.
+
+[SITO](https://digitalinnovationhubvicenza.it/learning-center/)
 """,
 de=
 """

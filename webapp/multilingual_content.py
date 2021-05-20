@@ -2,9 +2,10 @@
 This file contains strings to translate the Dash app into 3 languages: English, Italian and German.
 All the content variable names must be identical to 'id' attributes of the corresponding html elements
 """
+
 h1 = {
 "en": "Match between digital competences in schools and companies’ digital assessment",
-"de": "Übereinstimmung zwischen Fähigkeiten aus Schulen und digitaler Bewertung von Unternehmen",
+"de": "Match zwischen den digitalen Kompetenzen der Schulen und dem „digital Assessment“ der Unternehmen",
 "it": "Match tra competenze digitali in uscita dalle scuole e digital assessment delle aziende"
 }
 
@@ -18,7 +19,7 @@ This infographic was developed under the project to show how the school system i
 
 ## Data Citation
 
-1. [Online questionnaire](https://innovation246607.typeform.com/to/YCmSnz9e) made to investigate the level of development of the main digital skills within schools and training centers
+1. [Online questionnaire](https://lvhapa.typeform.com/to/YCmSnz9e) made to investigate the level of development of the main digital skills within schools and training centers
 2. Autonomous Province of Bolzano, Province of Treviso, Belluno and Vicenza, Region of Salzburg
 3. 39 received replies: 19 from the Bolzano area, 11 from Vicenza, 2 from Treviso, 2 from Belluno and 5 from Salzburg
 4. [SELFI4.0 Survey Project, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - aggregated data of the provinces of TV, VI and BZ (1116 collected questionaries)
@@ -32,19 +33,19 @@ This infographic was developed under the project to show how the school system i
 """,
 
 "de": """
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien. Etiam sapien justo, feugiat at enim ut, venenatis elementum mauris. In hac habitasse platea dictumst. Duis vel tristique justo. 
+Die Digitalisierung schreitet voran und bringt wichtige und bedeutende Veränderungen in die Welt des Handwerks. Was werden die Handwerksberufe der Zukunft sein? Wie wird sich das traditionelle Handwerk verändern? Welche neuen Technologien werden eingesetzt und welche Fähigkeiten werden benötigt? Das Projekt FuturCRAFT trägt zur Beantwortung dieser Fragen bei, indem es mögliche Zukunftsszenarien von Berufsbildern definiert und für Handwerksbetriebe greifbar macht.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien. Etiam sapien justo, feugiat at enim ut, venenatis elementum mauris. In hac habitasse platea dictumst. Duis vel tristique justo. Morbi erat nunc, viverra eget maximus eget, mollis sed felis. Nullam nibh lorem, porta at tellus vitae, condimentum convallis mauris. Maecenas nec neque vitae arcu blandit aliquet. Duis sodales ut turpis non aliquet. Mauris vitae tellus nulla. Vivamus malesuada aliquam tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien. Etiam sapien justo, feugiat at enim ut, venenatis elementum mauris.
+Im Rahmen des Projektes wurde diese Infografik entwickelt. Sie zeigt, wie gut sich das Schulsystem an die rasante Digitalisierung der letzten Jahre anpasst und wie es auf die Nachfrage nach neuen digitalen Fähigkeiten auf dem Arbeitsmarkt des Handwerks reagiert. Daten über das aktuelle Bildungsangebot wurden gesammelt, indem Digichecks \[1\] an die wichtigsten Oberschulen und Berufsbildungszentren in den am Projekt beteiligten Gebieten \[2\] geschickt wurden. Im Zuge der Analyse, insofern für diese Gebiete relevant, wurde entschieden, von nur zwei beispielhaften Ausbildungszweigen auszugehen, Mechatronik und Holz \[3\]. Die Daten zum digitalen Reifegrad der Unternehmen wurden stattdessen unabhängig davon erhoben, welchem Wirtschaftszweig sie angehören. Für die Provinzen Vicenza, Treviso, Belluno und Bozen haben wir Rohdaten verwendet, die vom Projekt Punto Impresa Digitale der Handelskammern \[4\] zur Verfügung gestellt wurden, während wir für das Bundesland Salzburg andere relevante institutionelle Quellen herangezogen haben \[5\].
 
 ---
 
-## Datenzitat
+## Quellenangabe
 
-1. [Questionario online](https://innovation246607.typeform.com/to/tQJ71kxt) realizzato per indagare il livello di sviluppo delle principali competenze digitali all’interno delle scuole e dei centri di formazione
-2. Provincia autonoma di Bolzano, Province di Treviso, Belluno e Vicenza, Regione di Salisburgo
-3. 39 risposte ricevute: 19 dall’area di Bolzano, 11 da Vicenza, 2 da Treviso, 2 da Belluno e 5 da Salisburgo
-4. [Indagine SELFI4.0, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - dati aggregati delle provincie di TV, BL, VI e BZ (1116 questionari raccolti)
-5. Processing by [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) on data from the [National Institute of Statistics](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html), Austrian [Chamber of Commerce](https://media.wko.at/epaper/trendguidedigitalisierung/?_ga=2.1038641.1454822841.1606307261-425704757.1594201454#2), and the [Federal Ministry for Digital and Economic Affairs](https://initiatived21.de/app/uploads/2018/12/digital-dossier-oesterreich.pdf)
+1. [Online-Fragebogen](https://lvhapa.typeform.com/to/tQJ71kxt) zur Untersuchung des Entwicklungsstandes von digitalen Schlüsselkompetenzen in Schulen und Ausbildungszentren
+2. Autonome Provinz Bozen, Provinz Treviso, Belluno, Vicenza, Land Salzburg
+3. 39 erhaltene Antworten: 19 aus Bozen, 11 aus Vicenza, 2 aus Treviso, 2 aus Belluno e 5 aus Salzburg
+4. [Untersuchung SELFI4.0, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - aggregierte Daten aus den Provinzen TV, BL, VI und BZ (1.116 Fragebögen)
+5. 5.	Entwicklung der [Innovations- und Technologietransfer Salzburg GmbH](https://itg-salzburg.at/) auf Basis von Daten der [Bundesanstalt für Statistik](http://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/informationsgesellschaft/ikt-einsatz_in_unternehmen/index.html), der [Wirtschaftskammer Österreich](https://media.wko.at/epaper/trendguidedigitalisierung/?_ga=2.1038641.1454822841.1606307261-425704757.1594201454#2) und des [Bundesministeriums für Digitales und Wirtschaftsstandort](https://initiatived21.de/app/uploads/2018/12/digital-dossier-oesterreich.pdf)
 
 ---
 
@@ -60,7 +61,7 @@ La presente infografica è stata sviluppata nell’ambito di tale progetto per m
 
 ## Citazione dei dati
 
-1. [Questionario online](https://innovation246607.typeform.com/to/LRQruSwJ) realizzato per indagare il livello di sviluppo delle principali competenze digitali all’interno delle scuole e dei centri di formazione
+1. [Questionario online](https://lvhapa.typeform.com/to/LRQruSwJ) realizzato per indagare il livello di sviluppo delle principali competenze digitali all’interno delle scuole e dei centri di formazione
 2. Provincia autonoma di Bolzano, Province di Treviso, Belluno e Vicenza, Regione di Salisburgo
 3. 39 risposte ricevute: 19 dall’area di Bolzano, 11 da Vicenza, 2 da Treviso, 2 da Belluno e 5 da Salisburgo
 4. [Indagine SELFI4.0, Punto Impresa Digitale](https://www.puntoimpresadigitale.camcom.it/) - dati aggregati delle provincie di TV, BL, VI e BZ (1116 questionari raccolti)
@@ -130,30 +131,28 @@ Secondo Statistics Austria, il 38% delle aziende austriache usa servizi cloud. A
 """,
 
 "de": """
-**⚠ NOTA BENE: The data on Austrian companies’ digital assessment are very general and not referable to the only Region of Salzburg. Thus, they cannot be compared with those from Italian companies nor be integrated into the infographic.**
+**⚠ ACHTUNG: Die Angaben zur digitalen Bewertung österreichischer Unternehmen sind sehr allgemein und beziehen sich nicht nur auf die Region Salzburg. Sie können daher nicht mit denen der italienischen Unternehmen verglichen und in die Infografik integriert werden.**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius.
+Das Ausbildungsangebot im Land Salzburg ist ähnlich wie das von Treviso und Belluno. Die Entwicklung der folgenden Fähigkeiten ist zwar vorgesehen, betrifft aber nicht alle beteiligten Schulen: *Cloud Manufacturing* in 3 Schulen, *Advanced Automation* in 5, *Industrial Analytics* in 2, Industrial IoT in 4, *Advanced HMI* (Human-machine Interaction) in 2 und *Additive Manufacturing* in 3.
 
 **Additive Manufacturing**
 
-Additive Manufacturing - In 2017, 4% of Austrian enterprises used 3D printing (either using their own 3D printers or using other companies’ 3D printers). In particular, 8% of companies using 3D printing were from the producing sector; instead, 3% of them were from the servicing sector. 84% of companies used it for internal purposes, instead 50% for sale (50%).
+Im Jahr 2017 nutzten 4 % der österreichischen Unternehmen 3D-Druck (mit eigenen 3D-Druckern oder 3D-Druckern anderer Unternehmen). Konkret gehörten 8% der Unternehmen, die 3D-Druck einsetzten, zum produzierenden Gewerbe, 3% hingegen zum Dienstleistungssektor. 84% der Unternehmen nutzten diese Technologie für interne Zwecke, während 50% sie für den Vertrieb einsetzten.
 
 **Advanced HMI**
-Almost every third Austrian company used smart devices or systems in 2020 (32%), most often these are used in energy management to optimize energy consumption, e.g. in the form of smart meters, lamps or thermostats (19%). 11% of companies used intelligent devices or systems for transport (e.g. through motion sensors to record the movement of vehicles or products) or for maintenance (e.g. through maintenance sensors for needs-based maintenance of vehicles or machines). In general: the larger the company, the more likely smart devices or systems are used.
+Im Jahr 2020 nutzt fast ein Drittel der österreichischen Unternehmen smarte Geräte oder Systeme (32%). Am häufigsten werden diese im Energiemanagement, zum Beispiel in Form von intelligenten Zählern, Lampen oder Thermostaten (19 %) eingesetzt, um den Energieverbrauch zu optimieren. 11% der Unternehmen setzen intelligente Geräte oder Systeme für den Transport (z. B. Bewegungssensoren zur Erfassung der Bewegung von Fahrzeugen oder Produkten) oder für die Wartung (z. B. Wartungssensoren zur bedarfsgerechten Wartung von Fahrzeugen oder Maschinen) ein. Generell gilt: je größer das Unternehmen, desto wahrscheinlicher ist der Einsatz von smarten Geräten oder Systemen.
 
 **Industrial IoT**
-More and more companies in the DACH region are benefiting from IoT, as the study “Internet of things 2019/2020” shows. 51% of the 444 companies surveyed have already implemented IoT projects, 93% of which were rated as satisfactory. And also (cyber) security plays an important role in this context.
+Wie die Studie „Internet of things 2019/2020“ zeigt, profitieren in der D-A-CH-Region immer mehr Unternehmen vom IoT. 51 % der 444 befragten Unternehmen haben bereits IoT-Projekte umgesetzt, 93% von diesen wurden als zufriedenstellend bewertet. Auch die (Cyber-)Sicherheit spielt in diesem Zusammenhang eine wichtige Rolle.
 
 **Industrial analytics**
-As a result of the increase in digital devices and systems, the amount of data increases as well. In order to make this rapidly growing amount of data available in different structures and useful for the company, an infrastructure enabling big data analyzes is required. 9% of companies carry out such analyzes of their internal company data. In 7% of the companies, these analyzes are carried out by their own employees, 4% use external companies to do this. In this regard, small companies cannot show the same usage rates as larger companies.
+Die Zunahme smarter Geräte und Systeme verursacht auch eine Zunahme der Datenmenge. Um diese rasant wachsende Menge an Daten in unterschiedlichen Strukturen verfügbar und für das Unternehmen nutzbar zu machen, wird eine Infrastruktur benötigt, die Big-Data-Analysen ermöglicht. 9% der Unternehmen führen solche Analysen mit internen Unternehmensdaten durch. In 7% der Unternehmen werden diese Analysen von eigenen Mitarbeitern durchgeführt, während 4% externe Unternehmen damit beauftragen. Diesbezüglich weisen kleine Unternehmen nicht dieselben Nutzungsraten auf wie größere Unternehmen.
 
 **Advanced Automation**
-5% of the companies use stationary industrial robots for production processes, which are normally most frequently used for the production of goods (23%). Autonomous service robots are used in 2% of companies. Here the company size plays an important role.
+5% der Unternehmen setzen stationäre Industrieroboter für Fertigungsprozesse ein. Diese werden in der Regel eher in der Warenproduktion eingesetzt (23%). Autonome Serviceroboter sind in 2% der Unternehmen im Einsatz. Hierbei spielt die Größe des Unternehmens eine wichtige Rolle.
 
 **Cloud Manufacturing**
-According to Statistics Austria, 38% of Austrian companies use cloud services. The average number of services companies use over the Internet has also increased throughout the years. In addition, in 2020 every third company (32%) relied on smart devices or systems in at least one of their business areas - e.g. on smart meters, intelligent maintenance sensors for machines and vehicles or on sensors for automating logistics or production processes.
+Laut Statistik Austria nutzen 38% der österreichischen Unternehmen Cloud-Services. Auch die durchschnittliche Anzahl der von Unternehmen genutzten Online-Dienste ist in den letzten Jahren gestiegen. Darüber hinaus setzt ein Drittel der Unternehmen (32%) im Jahr 2020 in mindestens einem ihrer Geschäftsbereiche auf smarte Geräte oder Systeme - zum Beispiel intelligente Zähler, intelligente Wartungssensoren für Maschinen und Fahrzeuge oder Sensoren zur Automatisierung von Logistik- oder Produktionsprozessen.
 """}
 
 interpr = dict(
@@ -172,7 +171,9 @@ it="""
 ---
 """,
 de="""
-**Wie ist dieses Diagramm zu interpretieren?** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas ac erat in varius. Mauris blandit neque metus, nec mattis justo dapibus ut. Curabitur in nulla felis. Nam posuere fermentum mattis. Sed ut turpis sapien. Etiam sapien justo, feugiat at enim ut, venenatis elementum mauris. In hac habitasse platea dictumst. Duis vel tristique justo. Morbi erat nunc, viverra eget maximus eget, mollis sed felis. Nullam nibh lorem, porta at tellus vitae, condimentum convallis mauris.
+**Wie ist die Infografik zu interpretieren?**Die Intensität der *gelben Farbe* veranschaulicht die Verbreitung der verschiedenen Fähigkeiten (vertikale Achse) in den Unternehmen der betroffenen Provinzen (horizontale Achse). Das *blaue Quadrat* innerhalb jeder Zelle stellt das Bildungsangebot der jeweiligen Schnittmenge zwischen einer Fähigkeit und einer Provinz dar: je größer das Quadrat, desto mehr Schulen unterrichten diese bestimmte Technologie. Bewegen Sie den Mauszeiger über eine Zelle, so erfahren Sie weitere Details wie *„Pct. of companies (%)"*, was den Prozentsatz der Unternehmen, die eine bestimmte Technologie verwenden, angibt und *„Number of schools"*, was die Anzahl der Schulen, die diese bestimmte Fähigkeit anbieten, beschreibt.
+
+*Fahren Sie zum Beispiel mit der Maus über die Zelle Industrial IoT/VI: In dieser Provinz nutzen 8,6 % der Unternehmen (Feld "Pct. of companies") industrielle IOT-Technologien und 11 Schulen (Feld "Number of schools") bieten entsprechende Ausbildungen an.*
 
 ---
 """
@@ -222,7 +223,21 @@ SINTESI: Partire da una vasta gamma di dati per arrivare allo sviluppo di soluzi
 """,
 de=
 """
+### COPERNICUS HACKATHON VICENZA
 
+DAUER: 15-16 Februar 2020
+
+ORT: Vicenza, Venetien, Italien
+
+PARTNER: Copernicus, AZO, Digital Innovation Hub Vicenza (DIH), Confartigianato Imprese Vicenza, ASI, ISPRA, ESA, Università Cà Foscari Venezia, Serco, Repubblica Digitale, arpav, artes, Region Venetien
+
+ZIELGRUPPE: Universitätsstudentinnen, Doktoranden, Forscherinnen und Unternehmer.
+
+INDIKATOREN: mehr als 100 beteiligte Personen (Mitarbeiterinnen und Teilnehmer), 36h nonstop Aktivitäten, 4 Tage in Cà Foscari, einen Tag im DIH (Bootcamp). 
+
+ZUSAMMENFASSUNG: Die Herausforderung dieses "Brain Marathon im digitalen Zeitalter“ war die Entwicklung innovativer Lösungen in der Raumfahrtökonomie, ausgehend von einer Vielzahl von Daten. Die Teilnahme am Copernicus Hackathon verlangte ein komplettes Eintauchen in aktuelle und Community-relevante Themen: zwei intensive Tage, an denen man in interdisziplinären Teams gearbeitet und die digitale Welt in all ihren Formen geteilt und erlebt hat. Eine gesunde und aktuelle Art des Wettbewerbs: man generiert Ideen, die die Welt verbessern können.
+
+[WEBSITE](https://digitalinnovationhubvicenza.it/copernicus-hackathon-vicenza-2020-official-video/)
 """
 )
 
@@ -265,7 +280,21 @@ SINTESI: Il percorso è stato organizzato in diverse giornate di formazione svol
 """,
 de=
 """
-*Diese Seite ist im Moment in Bearbeitung. Bald wird es etwas interessantes zu lesen geben.*
+### ZERTIFIZIERUNGSSCHULUNG IM COMAU LERNZENTRUM
+
+DAUER: Juni/ Juli/ September 2020
+
+ORT: Vicenza, Venetien, Italien – Turin, Piemont, Italien
+
+PARTNER: Digital Innovation Hub Vicenza (DIH) | Confartigianato Imprese Vicenza, COMAU, ITS Meccatronico Veneto, FabLab Belluno, Cre-Ta
+
+ZIELGRUPPE: talentierte junge Menschen mit einer Leidenschaft für digitale Technologien
+
+INDIKATOREN: 10 junge Menschen konnten von dieser Ausbildung profitieren 
+
+ZUSAMMENFASSUNG: Die Veranstaltung wurde in mehreren Schulungstagen in der COMAU-Akademie in Turin und im DIH-Lernzentrum durchgeführt. Dank der e.DO-Roboter der COMAU war es möglich, eine innovative Lernumgebung zu schaffen, in der junge Menschen Fähigkeiten entwickeln und das Potenzial der Robotik entdecken konnten. Eine Umgebung, die ein spielerisches und partizipatives Lernen ermöglichte, um wissenschaftliche Themen zu vertiefen oder eigene technologische Prototypen zu erstellen.
+
+[WEBSITE](https://digitalinnovationhubvicenza.it/learning-center/)
 """
 )
 
@@ -310,7 +339,21 @@ SINTESI: Contenitore formativo permanente, dedicato a studenti e docenti di ogni
 """,
 de=
 """
+### ACADEMY CONFARTIGIANATO VICENZA
 
+DAUER: September 2020-Juni 2021 (Schuljahr)
+
+ORT: Vicenza, Venetien, Italien
+
+PARTNER: Mittel- und Oberschulen, Gemeinde Vicenza, Digital Innovation Hub, Handelskammer, Alumni-Vereinigung Scuola Galileiana der Universität von Padova, Landesschulamt
+
+ZIELGRUPPE: Schülerinnen und Dozenten
+
+INDIKATOREN: 9 Events, 179 Dozenten und 2.062 Studenten
+
+ZUSAMMENFASSUNG: Ein permanentes Bildungsangebot, welches sich an Schüler und Lehrerinnen aller Schulstufen richtet und das Erlangen von grundlegenden Fähigkeiten durch die Methode "Learning by doing" ermöglicht. Die kompetenzorientierte Didaktik zielt auf eine tiefgreifende Erneuerung der Logik von Lern-Lehr-Prozessen ab. Sie basiert auf konkreten pädagogischen und beruflichen Kompetenzen, die klar beobachtbar, bewertbar und zertifizierbar sind. Die Veranstaltungen sind in Schulungen für Lehrer und Kurse für Schülerinnen unterteilt und betreffen sowohl künstlerische als auch MINT-Labore. Die in den Kursen verwendete Methode, die sich auf kooperatives Lernen, Teambildung und Problemlösung fokussiert, ermöglicht die Kombination von technischen und digitalen Fertigkeiten mit sozialen und transversalen Fähigkeiten.
+
+[WEBSITE](https://www.confartigianatovicenza.it/ufficio-scuola/academy-confartigianato/)
 """
 )
 
@@ -356,6 +399,21 @@ SINTESI: Il progetto, finanziato dal FSE (Fondo Sociale Europeo) nell’ambito d
 """,
 de=
 """
+### I-DIGITAL: DIGITALE KOMPETENZEN FÜR DIE ARBEIT 4.0
+
+DAUER: Jänner 2019 – Dezember 2020
+
+ORT: Venetien, Italien
+
+PARTNER: Edulife, IFOA, H-FARM, Confindustria SIAV, spezialisierte Ausbildungseinrichtungen
+
+ZIELGRUPPE: Mitarbeiter von Unternehmen mit Sitz in Venetien
+
+INDIKATOREN: 188 Teilnehmerinnen, 444 Stunden Trainings- und Workshopaktivitäten in Gruppen, 90 Stunden Einzelcoaching
+
+ZUSAMMENFASSUNG: Dieses Projekt wurde vom Europäischen Sozialfonds im Rahmen der Deliberazione della Giunta Regionale (DGR) 1311/2018 finanziert und setzt sich das Aufzeigen und die Bewusstwerdung der persönlichen Fähigkeiten und Professionalität der Arbeitnehmer bezüglich der laufenden digitalen Transformation zum Ziel. Das Projekt trägt somit zur Festigung und Entwicklung der Wettbewerbsfähigkeit auf dem Arbeitsmarkt bei. Die Schulung konzentriert sich auf drei Kompetenzbereiche: künstliche Intelligenz, Cloud Computing & Internet der Dinge sowie Anregungen bezüglich "Know How To Do" (Programmiersprachen und maschinelles Lernen) und "Know How To Think" (Design Thinking und Visual Thinking).
+
+[WEBSITE](https://t2i.drive.fastcloud.it/invitations?share=e9bdb45d9bb48ba100d7&dl=0)
 
 """
 )
@@ -379,7 +437,6 @@ INDICATORS: 7 training laboratories formativi (12 hours each), 100 students
 OVERVIEW: These training laboratories were conceived under the EES AA project, funded by the Interreg Programme V-A Italy-Austria 2014-2020, in order to promote entrepreneurship and self-initiative among high school students, asking them to develop a new idea of service or a new product. All resulting solutions included the use of 4.0 digital technologies.
 
 [WEBSITE](http://www.t2i.it/innovazione-ricerca-finanziamento/networking-ricerca-trasferimento-tecnologico/progetti-innovativi/entrepreneurial-ecosystem-alpe-adria-ees-aa/)
-
 """,
 it=
 """
@@ -403,7 +460,21 @@ SINTESI: Nell’ambito del progetto EES AA, finanziato dal Programma Interreg V-
 """,
 de=
 """
+### EES AA – ENTREPRENEURIAL ECOSYSTEM ALPE ADRIA - TRAININGSWORKSHOPS FÜR DAS SELBSTUNTERNEHMERTUM
 
+DAUER: März 2019 - Dezember 2019
+
+ORT: Venetien, Italien
+
+PARTNER: Oberschulen in den Provinzen Treviso und Belluno (technische und kaufmännische Schulen, Informatik, Chemie und Biotechnologie, Elektronik und Kunstschule)
+
+ZIELGRUPPE: Schülerinnen der letzten drei Schulstufen
+
+INDIKATOREN: 7 Trainingsworkshops zu 12 Stunden, 100 Teilnehmer 
+
+ZUSAMMENFASSUNG: Im Rahmen des EES AA-Projekts, das durch das Interreg V-A Italien-Österreich-Programm 2014-2020 finanziert wurde, wird eine Workshop-Schulung entwickelt, die den Unternehmer- und Initiativgeist von Oberschülern anregen soll, indem sie sie auffordert, eine neue Dienstleistungsidee oder ein neues Produkt zu entwickeln. Alle von den Schülerinnen entwickelten Lösungen beinhalten den Einsatz von Technologien 4.0.
+
+[WEBSITE](http://www.t2i.it/innovazione-ricerca-finanziamento/networking-ricerca-trasferimento-tecnologico/progetti-innovativi/entrepreneurial-ecosystem-alpe-adria-ees-aa/)
 """
 )
 
@@ -446,7 +517,21 @@ SINTESI: Il progetto intende supportare le giovani donne a intraprendere percors
 """,
 de=
 """
+### WOMEN4IT
 
+DAUER: September 2018 - August 2021
+
+ORT: Griechenland, Irland, Lettland, Litauen, Malta, Rumänien und Spanien
+
+PARTNER: LIKTA – The Latvian Information and Communications Technology Association, BETI – Baltic Education Technology Institute, MCA – Malta Communications Authority, CRETHIDEV – Creative Thinking and Development, ICS Skills – Training and Certification Body of the Irish Computer Society, PLAN International – Advancing children’s rights and equality for girls, Fundatia EOS – Educating for an Open Society, ECWT – The European Centre for Women and Technology, DIGITALEUROPE – The voice of the digital technology industry in Europe
+
+ZIELGRUPPE: Junge Frauen, die vom Ausschluss aus dem Arbeitsmarkt bedroht sind
+
+INDIKATOREN: 10.000 junge Menschen, erreicht durch die Sensibilisierungsarbeit bezüglich digitaler Karriere; 350 Arbeitgeber, denen innovative Lösungen vorgestellt werden; 1.000 Mädchen und junge Frauen, bewertet anhand eines Profiling-Tools; 700 in eine Ausbildung eingeschriebene Zielgruppen, einschließlich Anstellung
+
+ZUSAMMENFASSUNG: Das Projekt setzt sich die Unterstützung junger Frauen bei der Wahl digitaler Berufe zum Ziel. Dies ist sowohl für die Wettbewerbsfähigkeit der europäischen Industrie, als auch für die Integration der europäischen Gesellschaft in das digitalen Zeitalter von entscheidender Bedeutung. Zu den Aktivitäten gehören: Sensibilisierung für E-Skills und die Geschlechterkluft, Kompetenzbewertung, innovative Partnerschaften mit Arbeitgebern, Entwicklung eines Online-Tools zur Erstellung von Beschäftigungsprofilen und einer Schulungsplattform sowie Beschäftigungsberatung für digitale Arbeitsplätze.
+
+[WEBSITE](https://women4it.eu/)
 """
 )
 
@@ -491,7 +576,22 @@ Tale progetto intende contribuire ad incrementare la partecipazione delle donne 
 """,
 de=
 """
+### DITACT _WOMEN’S IT SUMMER SCHOOL
 
+DAUER: 2003 - heute
+
+
+ORT: Salzburg, Österreich
+
+PARTNER: Universität Salzburg: Abteilung GENDUP - Gender Studies und Frauenförderung, in Kooperation mit dem Fachbereich Angewandte Wissenschaften. Mit der Zeit wurden auch Kooperationen mit anderen Partnern gestartet.
+
+ZIELGRUPPE: Frauen
+
+INDIKATOREN: im Jahr 2020: 56 Kurse und 275 Teilnehmerinnen (60 mehr als im Jahr 2019)
+
+ZUSAMMENFASSUNG: Dieses Projekt soll dazu beitragen, den Anteil von Frauen in Informatik- und IT-Studiengängen an Universitäten und Fachhochschulen zu erhöhen. Im Rahmen von DITACT können Frauen gemeinsam lernen, arbeiten und sich vernetzen. Der Fokus liegt dabei auf den Grundlagen, Spezialisierungen und Anwendungen von Informatik, Management, Karriereplanung, IT und Lehre. 
+
+[WEBSITE](https://ditact.ac.at/)
 """
 )
 
@@ -538,7 +638,22 @@ Nuove forme di trasferimento delle conoscenze e di sviluppo delle competenze dig
 """,
 de=
 """
+### DIGISCOUTS
 
+DAUER: Mai 2018 – Dezember 2021 (jedes Projekt dauert ca. 3-6 Monate)
+
+ORT: Eschborn, Deutschland
+
+PARTNER: Handelskammern und Verbände für wirtschaftliche Entwicklung in den jeweiligen Regionen
+
+BEGÜNSTIGTE: Unternehmen, Ausbilder und Auszubildende
+
+ZIELGRUPPE: 2018 bis heute - 154 Unternehmen, 500 Auszubildende in 17 Regionen Deutschlands. Derzeit beteiligen sich 63 Unternehmen mit mehr als 200 neuen Auszubildenden an dem Projekt.
+
+ZUSAMMENFASSUNG: Neue Formen der Wissensvermittlung und E-Skills-Entwicklung am Arbeitsplatz. Warum nicht das Interesse der Jugendlichen an der Digitalisierung nutzen, um die duale Ausbildung im Betrieb attraktiver zu gestalten und zugleich für das Unternehmen Nutzen zu gewinnen? Im Rahmen dieses Azubi-Projekts finden in jedem Unternehmen mindestens zwei Auszubildende (betreut von erfahrenen Coaches) heraus, wo im Unternehmen Potenziale zur Digitalisierung und somit zur Steigerung des wirtschaftlichen Erfolgs liegen. Für die Auszubildenden eröffnet sich die Gelegenheit ihre digitalen Fähigkeiten zu erweitern, auf einer digitalen Plattform zu arbeiten, ihr Wissen mit E-Learning auszubauen, Erfahrungen im Projektmanagement zu sammeln und hervorragende Ideen und Projekte zu realisieren.
+
+[WEBSITE 1](https://www.digiscouts.de/),
+[WEBSITE 2](https://www.rkw-kompetenzzentrum.de/fachkraeftesicherung/projekte/ausbildungsmarketing-und-digiscoutsr/digiscoutsr-auszubildende-digitalisieren-ihren-betrieb/)
 """
 )
 
@@ -582,7 +697,21 @@ SINTESI: Una competizione per innovare la formazione professionale e renderla un
 """,
 de=
 """
+### InnoVET
 
+DAUER: 2019 - 2024
+
+ORT: Deutschland
+
+PARTNER: Bundesministerium für Bildung und Forschung, Berufsschulen, Betriebe, überbetriebliche Ausbildungsstätten, Ausbildungszentren, Universitäten, Forschungsinstitute und Beratungsunternehmen.
+
+ZIELGRUPPE: Unternehmen, Ausbildungseinrichtungen, Jugendliche, Absolventen
+
+INDIKATOREN: Gesamtbudget von 82 Mio.€, 17 Projekte mit einer Laufzeit von bis zu drei Jahren, 89 beteiligte Partner
+
+ZUSAMMENFASSUNG: Ein Innovationswettbewerb zur Steigerung der Attraktivität und Qualität der Berufsausbildung. Die Projekte entwickeln und testen attraktive und hochwertige Qualifizierungsangebote für die berufliche Ausbildung und Spezialisierung, um jungen Menschen diesbezüglich neue Anreize zu bieten. Diese Angebote orientieren sich an den Bedürfnissen der Unternehmen und fördern die Ausbildung von hochqualifizierten Fachkräften.
+
+[WEBSITE](https://www.inno-vet.de/index.html)
 """
 )
 

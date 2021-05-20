@@ -22,6 +22,23 @@ df = pd.read_sql_table("selfi4_group", con, schema="data")
 lng = "it"
 app = dash.Dash(name=__name__,
                 title="FuturCRAFT",
+                meta_tags=[
+                        # A description for search engines
+                        {
+                                "name": "description",
+                                "content": "FuturCRAFT: Future competence profiles in training and specialization"
+                        },
+                        # For IE, use the latest renderer available (e.g. Edge)
+                        {
+                                "http-equiv": "X-UA-Compatible",
+                                "content": "IE=edge"
+                        },
+                        # A tag necessary for "true" mobile support.
+                        {
+                                "name": "viewport",
+                                "content": "width=device-width, initial-scale=1.0"
+                        }
+                ],
                 assets_folder="static",
                 assets_url_path="static")
 application = app.server
@@ -49,7 +66,10 @@ fig = go.Figure(data=go.Heatmap(
         ticktext=["Low", "Average", "High"],
         ticks="outside"
     )),
-    layout=go.Layout(legend=dict(orientation="h")))
+    layout=go.Layout(legend=dict(orientation="h"),
+                     hoverlabel=dict(namelength=0)
+                     )
+)
 
 fig.add_trace(go.Scatter(
     name="Schools",
@@ -61,14 +81,12 @@ fig.add_trace(go.Scatter(
                 color="#164193",
                 line=dict(width=2, color="#164193"),
                 symbol="square"),
-    hoverinfo="skip"
+    hoverinfo="skip",
+    hoverlabel=dict(namelength=0)
 ))
 
 fig.update_layout(dragmode=False,
-                  separators=",",
-                  hoverlabel=dict(
-                      bgcolor="white")
-                  )
+                  separators=",")
 
 app.layout = html.Div([
     html.H1(id="h1"),
